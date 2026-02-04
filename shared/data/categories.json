@@ -1,0 +1,7 @@
+[
+  { "id": 1, "label": "Amigurumis y tejidos", "slug": "amigurumis-y-tejidos" },
+  { "id": 2, "label": "Bolsos y carteras", "slug": "bolsos-y-carteras" },
+  { "id": 3, "label": "Accesorios tech", "slug": "accesorios-tech" },
+  { "id": 4, "label": "Accesorios personales", "slug": "accesorios-personales" },
+  { "id": 5, "label": "Belleza", "slug": "belleza" }
+]

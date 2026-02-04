@@ -1,0 +1,375 @@
+[
+  {
+    "id": 1,
+    "slug": "muneco-amigurumi-personalizado",
+    "name": "Muñeco amigurumi personalizado",
+    "subtitle": "Hecho a pedido con detalles a elección",
+    "description": "Muñeco tejido a mano inspirado en una referencia. Ideal para regalos con valor emocional. Se trabaja con adelanto y tiempos de producción acordados antes de iniciar.",
+    "line": "personalizado",
+    "categoryId": 1,
+    "tagIds": [1, 3, 4, 9, 10, 5],
+    "featured": true,
+    "available": true,
+    "price": { "type": "range", "currency": "PEN", "min": 120, "max": 220, "note": "El precio varía según tamaño, complejidad y accesorios." },
+    "payment": { "depositPercent": 50, "balanceOnDelivery": true },
+    "fulfillment": {
+      "productionTime": { "minDays": 5, "maxDays": 10 },
+      "deliveryArea": "Lima Metropolitana",
+      "deliveryMethods": ["punto_entrega", "delivery_coord"],
+      "deliveryNotes": "Se confirma fecha exacta por WhatsApp antes de iniciar."
+    },
+    "policies": {
+      "noCancellationsAfterStart": true,
+      "noDesignChangesAfterStart": true,
+      "noReturnsForPreference": true,
+      "disclaimer": "Trabajamos con referencias generales; no se garantizan réplicas exactas."
+    },
+    "images": [
+      { "src": "/products/1.png", "alt": "Muñeco amigurumi personalizado", "isCover": true }
+    ],
+    "contact": { "whatsappMessage": "Hola ARROVASTORE 👋 Me interesa un Muñeco amigurumi personalizado. ¿Qué opciones manejan, tiempo de entrega y precio según el diseño?" }
+  },
+  {
+    "id": 2,
+    "slug": "mantita-apego-osito-tejida",
+    "name": "Mantita de apego tejida (osito)",
+    "subtitle": "Suave, ideal para regalo",
+    "description": "Mantita de apego hecha a mano con cabecita de osito. Perfecta para bebé o para regalar. Se puede variar colores según disponibilidad.",
+    "line": "personalizado",
+    "categoryId": 1,
+    "tagIds": [1, 3, 4, 7, 10],
+    "featured": true,
+    "available": true,
+    "price": { "type": "range", "currency": "PEN", "min": 110, "max": 170, "note": "Varía según tamaño y combinación de colores." },
+    "payment": { "depositPercent": 50, "balanceOnDelivery": true },
+    "fulfillment": {
+      "productionTime": { "minDays": 4, "maxDays": 8 },
+      "deliveryArea": "Lima Metropolitana",
+      "deliveryMethods": ["punto_entrega", "delivery_coord"]
+    },
+    "policies": {
+      "noCancellationsAfterStart": true,
+      "noDesignChangesAfterStart": true,
+      "noReturnsForPreference": true,
+      "disclaimer": "Al ser artesanal, puede haber ligeras variaciones respecto a la foto."
+    },
+    "images": [
+      { "src": "/products/2.png", "alt": "Mantita de apego tejida con osito", "isCover": true }
+    ],
+    "contact": { "whatsappMessage": "Hola ARROVASTORE 👋 Me interesa la Mantita de apego (osito). ¿Qué colores hay y cuál sería el tiempo de entrega?" }
+  },
+  {
+    "id": 3,
+    "slug": "mantita-apego-conejita-tejida",
+    "name": "Mantita de apego tejida (conejita)",
+    "subtitle": "Detalle tierno para bebé",
+    "description": "Mantita de apego tejida a mano con conejita y lazo. Ideal para baby shower o recién nacidos. Colores sujetos a disponibilidad.",
+    "line": "personalizado",
+    "categoryId": 1,
+    "tagIds": [1, 3, 4, 7, 10],
+    "featured": false,
+    "available": true,
+    "price": { "type": "range", "currency": "PEN", "min": 110, "max": 170, "note": "Varía según tamaño y colores." },
+    "payment": { "depositPercent": 50, "balanceOnDelivery": true },
+    "fulfillment": {
+      "productionTime": { "minDays": 4, "maxDays": 8 },
+      "deliveryArea": "Lima Metropolitana",
+      "deliveryMethods": ["punto_entrega", "delivery_coord"]
+    },
+    "policies": {
+      "noCancellationsAfterStart": true,
+      "noDesignChangesAfterStart": true,
+      "noReturnsForPreference": true,
+      "disclaimer": "Trabajo artesanal hecho a pedido; no aplica devolución por gusto personal."
+    },
+    "images": [
+      { "src": "/products/3.png", "alt": "Mantita de apego tejida con conejita", "isCover": true }
+    ],
+    "contact": { "whatsappMessage": "Hola ARROVASTORE 👋 Me interesa la Mantita de apego (conejita). ¿Qué colores y tiempo de producción manejan?" }
+  },
+  {
+    "id": 4,
+    "slug": "llavero-amigurumi-monstruo",
+    "name": "Llavero amigurumi (monstruito)",
+    "subtitle": "Un detalle divertido para regalar",
+    "description": "Llavero tejido a mano tipo amigurumi. Ideal para mochila, llaves o regalo. Se puede variar colores según disponibilidad.",
+    "line": "personalizado",
+    "categoryId": 1,
+    "tagIds": [1, 3, 4, 8, 10],
+    "featured": false,
+    "available": true,
+    "price": { "type": "range", "currency": "PEN", "min": 25, "max": 45, "note": "Varía según tamaño y detalles." },
+    "payment": { "depositPercent": 50, "balanceOnDelivery": true },
+    "fulfillment": {
+      "productionTime": { "minDays": 2, "maxDays": 5 },
+      "deliveryArea": "Lima Metropolitana",
+      "deliveryMethods": ["punto_entrega", "delivery_coord"]
+    },
+    "policies": {
+      "noCancellationsAfterStart": true,
+      "noDesignChangesAfterStart": true,
+      "noReturnsForPreference": true,
+      "disclaimer": "Basado en referencia. No se hacen réplicas exactas."
+    },
+    "images": [
+      { "src": "/products/4.png", "alt": "Llavero amigurumi tipo monstruito", "isCover": true }
+    ],
+    "contact": { "whatsappMessage": "Hola ARROVASTORE 👋 Me interesa el Llavero amigurumi (monstruito). ¿Qué colores hay y cuánto demora?" }
+  },
+  {
+    "id": 5,
+    "slug": "chal-tejido-calado-blanco",
+    "name": "Chal tejido calado (blanco)",
+    "subtitle": "Tejido artesanal",
+    "description": "Chal tejido a mano con diseño calado. Ideal para looks casuales y para llevar en salidas. Se puede pedir en otros tonos según disponibilidad.",
+    "line": "personalizado",
+    "categoryId": 1,
+    "tagIds": [1, 3, 4, 10],
+    "featured": false,
+    "available": true,
+    "price": { "type": "range", "currency": "PEN", "min": 90, "max": 150, "note": "Varía según tamaño y tipo de hilo." },
+    "payment": { "depositPercent": 50, "balanceOnDelivery": true },
+    "fulfillment": {
+      "productionTime": { "minDays": 4, "maxDays": 9 },
+      "deliveryArea": "Lima Metropolitana",
+      "deliveryMethods": ["punto_entrega", "delivery_coord"]
+    },
+    "policies": {
+      "noCancellationsAfterStart": true,
+      "noDesignChangesAfterStart": true,
+      "noReturnsForPreference": true,
+      "disclaimer": "Hecho a pedido; puede variar ligeramente por ser tejido artesanal."
+    },
+    "images": [
+      { "src": "/products/5.png", "alt": "Chal tejido calado color blanco", "isCover": true }
+    ],
+    "contact": { "whatsappMessage": "Hola ARROVASTORE 👋 Me interesa el Chal tejido calado. ¿Qué tamaños/colores manejan y cuál es el precio?" }
+  },
+  {
+    "id": 6,
+    "slug": "bolso-red-tejido-crudo",
+    "name": "Bolso red tejido (crudo)",
+    "subtitle": "Ligero y funcional",
+    "description": "Bolso tipo red tejido a mano. Ideal para salidas, playa o compras ligeras. Se puede personalizar con accesorio decorativo.",
+    "line": "personalizado",
+    "categoryId": 2,
+    "tagIds": [1, 3, 4, 10, 11],
+    "featured": true,
+    "available": true,
+    "price": { "type": "range", "currency": "PEN", "min": 80, "max": 140, "note": "Varía según tamaño y detalle decorativo." },
+    "payment": { "depositPercent": 50, "balanceOnDelivery": true },
+    "fulfillment": {
+      "productionTime": { "minDays": 4, "maxDays": 8 },
+      "deliveryArea": "Lima Metropolitana",
+      "deliveryMethods": ["punto_entrega", "delivery_coord"]
+    },
+    "policies": {
+      "noCancellationsAfterStart": true,
+      "noDesignChangesAfterStart": true,
+      "noReturnsForPreference": true,
+      "disclaimer": "Diseño artesanal; se trabaja con referencia y disponibilidad de materiales."
+    },
+    "images": [
+      { "src": "/products/6.png", "alt": "Bolso tipo red tejido color crudo", "isCover": true }
+    ],
+    "contact": { "whatsappMessage": "Hola ARROVASTORE 👋 Me interesa el Bolso red tejido. ¿Qué tamaños y colores hay disponibles?" }
+  },
+  {
+    "id": 7,
+    "slug": "muneco-amigurumi-estilo-urbano",
+    "name": "Muñeco amigurumi estilo urbano",
+    "subtitle": "Personalizable según referencia",
+    "description": "Muñeco tejido a mano con estilo urbano (ropa y accesorios). Se puede adaptar colores/detalles según referencia. Ideal para regalo.",
+    "line": "personalizado",
+    "categoryId": 1,
+    "tagIds": [1, 3, 4, 9, 10],
+    "featured": false,
+    "available": true,
+    "price": { "type": "range", "currency": "PEN", "min": 140, "max": 260, "note": "Varía según tamaño y accesorios." },
+    "payment": { "depositPercent": 50, "balanceOnDelivery": true },
+    "fulfillment": {
+      "productionTime": { "minDays": 6, "maxDays": 12 },
+      "deliveryArea": "Lima Metropolitana",
+      "deliveryMethods": ["punto_entrega", "delivery_coord"]
+    },
+    "policies": {
+      "noCancellationsAfterStart": true,
+      "noDesignChangesAfterStart": true,
+      "noReturnsForPreference": true,
+      "disclaimer": "No se garantizan réplicas exactas; se trabaja con referencia general."
+    },
+    "images": [
+      { "src": "/products/7.png", "alt": "Muñeco amigurumi estilo urbano", "isCover": true }
+    ],
+    "contact": { "whatsappMessage": "Hola ARROVASTORE 👋 Me interesa el Muñeco amigurumi estilo urbano. ¿Qué necesito enviar como referencia y cuál es el rango de precio?" }
+  },
+  {
+    "id": 8,
+    "slug": "bolso-de-mano-tejido-con-asas",
+    "name": "Bolso de mano tejido con asas",
+    "subtitle": "Elegante y práctico",
+    "description": "Bolso de mano tejido con asas rígidas. Ideal para uso diario. Producto sujeto a stock o se puede replicar por pedido según materiales.",
+    "line": "stock",
+    "categoryId": 2,
+    "tagIds": [2, 3, 4, 6, 11],
+    "featured": false,
+    "available": true,
+    "price": { "type": "fixed", "currency": "PEN", "amount": 89 },
+    "fulfillment": {
+      "productionTime": { "minDays": 0, "maxDays": 0 },
+      "deliveryArea": "Lima Metropolitana",
+      "deliveryMethods": ["punto_entrega", "delivery_coord"],
+      "deliveryNotes": "Confirma disponibilidad por WhatsApp."
+    },
+    "policies": {
+      "noCancellationsAfterStart": false,
+      "noDesignChangesAfterStart": false,
+      "noReturnsForPreference": true,
+      "disclaimer": "Producto en stock: se entrega tal como se muestra."
+    },
+    "images": [
+      { "src": "/products/8.png", "alt": "Bolso de mano tejido con asas", "isCover": true }
+    ],
+    "contact": { "whatsappMessage": "Hola ARROVASTORE 👋 ¿Sigue disponible el Bolso de mano tejido con asas? Quisiera coordinar entrega." }
+  },
+  {
+    "id": 9,
+    "slug": "monedero-tejido-trenzado",
+    "name": "Monedero tejido trenzado",
+    "subtitle": "Compacto y resistente",
+    "description": "Monedero tejido con acabado trenzado. Ideal para llevar monedas o cosas pequeñas. Producto en stock con disponibilidad limitada.",
+    "line": "stock",
+    "categoryId": 4,
+    "tagIds": [2, 3, 4, 6],
+    "featured": false,
+    "available": true,
+    "price": { "type": "fixed", "currency": "PEN", "amount": 35 },
+    "fulfillment": {
+      "productionTime": { "minDays": 0, "maxDays": 0 },
+      "deliveryArea": "Lima Metropolitana",
+      "deliveryMethods": ["punto_entrega", "delivery_coord"]
+    },
+    "policies": {
+      "noCancellationsAfterStart": false,
+      "noDesignChangesAfterStart": false,
+      "noReturnsForPreference": true,
+      "disclaimer": "Producto en stock: se entrega tal como se muestra."
+    },
+    "images": [
+      { "src": "/products/9.png", "alt": "Monedero tejido trenzado", "isCover": true }
+    ],
+    "contact": { "whatsappMessage": "Hola ARROVASTORE 👋 Me interesa el Monedero tejido trenzado. ¿Está disponible?" }
+  },
+  {
+    "id": 10,
+    "slug": "case-airpods-silicona-lila",
+    "name": "Case para AirPods (silicona lila)",
+    "subtitle": "Protección simple y bonita",
+    "description": "Case de silicona para AirPods en color lila. Producto en stock. Confirma modelo compatible por WhatsApp antes de comprar.",
+    "line": "stock",
+    "categoryId": 3,
+    "tagIds": [2, 6, 13],
+    "featured": false,
+    "available": true,
+    "price": { "type": "fixed", "currency": "PEN", "amount": 20 },
+    "fulfillment": {
+      "productionTime": { "minDays": 0, "maxDays": 0 },
+      "deliveryArea": "Lima Metropolitana",
+      "deliveryMethods": ["punto_entrega", "delivery_coord"]
+    },
+    "policies": {
+      "noCancellationsAfterStart": false,
+      "noDesignChangesAfterStart": false,
+      "noReturnsForPreference": true,
+      "disclaimer": "Producto en stock. Verifica compatibilidad (modelo) antes de coordinar."
+    },
+    "images": [
+      { "src": "/products/10.png", "alt": "Case lila para AirPods", "isCover": true }
+    ],
+    "contact": { "whatsappMessage": "Hola ARROVASTORE 👋 Me interesa el Case para AirPods (lila). ¿Para qué modelos está disponible?" }
+  },
+  {
+    "id": 11,
+    "slug": "case-apple-watch",
+    "name": "Correa para Apple Watch",
+    "subtitle": "S/ 20 — cualquier modelo (según disponibilidad)",
+    "description": "Case protector para Apple Watch. Precio referencial por unidad. Confirma tamaño del reloj y disponibilidad por WhatsApp.",
+    "line": "stock",
+    "categoryId": 3,
+    "tagIds": [2, 6, 12],
+    "featured": true,
+    "available": true,
+    "price": { "type": "fixed", "currency": "PEN", "amount": 20 },
+    "fulfillment": {
+      "productionTime": { "minDays": 0, "maxDays": 0 },
+      "deliveryArea": "Lima Metropolitana",
+      "deliveryMethods": ["punto_entrega", "delivery_coord"]
+    },
+    "policies": {
+      "noCancellationsAfterStart": false,
+      "noDesignChangesAfterStart": false,
+      "noReturnsForPreference": true,
+      "disclaimer": "Producto en stock. Confirma modelo/tamaño antes de coordinar."
+    },
+    "images": [
+      { "src": "/products/11.png", "alt": "Case para Apple Watch", "isCover": true }
+    ],
+    "contact": { "whatsappMessage": "Hola ARROVASTORE 👋 Me interesan los cases para Apple Watch. ¿Qué tallas/modelos tienen disponibles?" }
+  },
+  {
+    "id": 12,
+    "slug": "pulsera-piedra-para-el",
+    "name": "Pulsera de piedra (para él)",
+    "subtitle": "Accesorio clásico",
+    "description": "Pulsera de piedra en tono oscuro. Producto en stock. Ideal como regalo o accesorio diario.",
+    "line": "stock",
+    "categoryId": 4,
+    "tagIds": [2, 6, 14, 4],
+    "featured": false,
+    "available": true,
+    "price": { "type": "fixed", "currency": "PEN", "amount": 15 },
+    "fulfillment": {
+      "productionTime": { "minDays": 0, "maxDays": 0 },
+      "deliveryArea": "Lima Metropolitana",
+      "deliveryMethods": ["punto_entrega", "delivery_coord"]
+    },
+    "policies": {
+      "noCancellationsAfterStart": false,
+      "noDesignChangesAfterStart": false,
+      "noReturnsForPreference": true,
+      "disclaimer": "Producto en stock: se entrega tal como se muestra."
+    },
+    "images": [
+      { "src": "/products/12.png", "alt": "Pulsera de piedra para él", "isCover": true }
+    ],
+    "contact": { "whatsappMessage": "Hola ARROVASTORE 👋 Me interesa la Pulsera de piedra (para él). ¿Está disponible?" }
+  },
+  {
+    "id": 13,
+    "slug": "set-brochas-maquillaje",
+    "name": "Set de brochas de maquillaje",
+    "subtitle": "S/ 15 — set completo",
+    "description": "Set de brochas para maquillaje. Producto en stock con disponibilidad limitada.",
+    "line": "stock",
+    "categoryId": 5,
+    "tagIds": [2, 6, 15],
+    "featured": false,
+    "available": true,
+    "price": { "type": "fixed", "currency": "PEN", "amount": 15 },
+    "fulfillment": {
+      "productionTime": { "minDays": 0, "maxDays": 0 },
+      "deliveryArea": "Lima Metropolitana",
+      "deliveryMethods": ["punto_entrega", "delivery_coord"]
+    },
+    "policies": {
+      "noCancellationsAfterStart": false,
+      "noDesignChangesAfterStart": false,
+      "noReturnsForPreference": true,
+      "disclaimer": "Producto en stock: se entrega tal como se muestra."
+    },
+    "images": [
+      { "src": "/products/13.png", "alt": "Set de brochas de maquillaje", "isCover": true }
+    ],
+    "contact": { "whatsappMessage": "Hola ARROVASTORE 👋 Me interesa el Set de brochas de maquillaje. ¿Sigue disponible?" }
+  }
+]

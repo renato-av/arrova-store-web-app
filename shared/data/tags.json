@@ -1,0 +1,17 @@
+[
+  { "id": 1, "label": "Personalizado", "slug": "personalizado" },
+  { "id": 2, "label": "En stock", "slug": "en-stock" },
+  { "id": 3, "label": "Hecho a mano", "slug": "hecho-a-mano" },
+  { "id": 4, "label": "Regalo", "slug": "regalo" },
+  { "id": 5, "label": "Best seller", "slug": "best-seller" },
+  { "id": 6, "label": "Entrega rápida", "slug": "entrega-rapida" },
+  { "id": 7, "label": "Bebé", "slug": "bebe" },
+  { "id": 8, "label": "Llaveros", "slug": "llaveros" },
+  { "id": 9, "label": "Muñecos", "slug": "munecos" },
+  { "id": 10, "label": "Tejido", "slug": "tejido" },
+  { "id": 11, "label": "Bolsos", "slug": "bolsos" },
+  { "id": 12, "label": "Apple Watch", "slug": "apple-watch" },
+  { "id": 13, "label": "AirPods", "slug": "airpods" },
+  { "id": 14, "label": "Para él", "slug": "para-el" },
+  { "id": 15, "label": "Brochas", "slug": "brochas" }
+]
