@@ -8,8 +8,6 @@ Este proyecto está pensado como: - Landing de marca - Catálogo de
 productos - Base sólida para evolucionar a un ecommerce completo en el
 futuro
 
-------------------------------------------------------------------------
-
 ## 🧵 Contexto del negocio
 
 Arrova Store trabaja con **producción limitada** y atención
@@ -27,7 +25,6 @@ Existen dos líneas de producto:
 La web busca comunicar claramente estos procesos, generar confianza y
 dirigir la conversión hacia WhatsApp.
 
-------------------------------------------------------------------------
 
 ## 🛠️ Stack técnico
 
@@ -41,7 +38,6 @@ dirigir la conversión hacia WhatsApp.
 
 Todo el sitio es **100% estático**.
 
-------------------------------------------------------------------------
 
 ## 📁 Estructura del proyecto
 
@@ -62,8 +58,6 @@ public/
   products/
 ```
 
-------------------------------------------------------------------------
-
 ## 📦 Datos estáticos
 
 Los productos y categorías se gestionan mediante archivos JSON:
@@ -78,7 +72,6 @@ Las imágenes de productos siguen la convención:
 public/products/<id>.png
 ```
 
-------------------------------------------------------------------------
 
 ## 🚀 Desarrollo local
 
@@ -89,7 +82,6 @@ pnpm run dev
 
 Abrir: http://localhost:3000
 
-------------------------------------------------------------------------
 
 ## 🌐 Deploy
 
@@ -100,7 +92,6 @@ estático.
 pnpm run build
 ```
 
-------------------------------------------------------------------------
 
 ## 🎨 Diseño y UX
 
@@ -109,7 +100,6 @@ pnpm run build
 -   Mobile-first
 -   Estilo artesanal
 
-------------------------------------------------------------------------
 
 ## 🔮 Roadmap
 
@@ -119,7 +109,6 @@ pnpm run build
 -   CMS / backend
 -   SEO dinámico
 
-------------------------------------------------------------------------
 
 ## 📄 Licencia
 
