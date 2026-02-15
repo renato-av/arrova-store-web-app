@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { nav } from '@/shared/lib/constants/nav'
+import { nav } from '@/shared/lib/constants'
 import { whatsappHref } from '@/shared/lib/utils'
 import MobileNav from './MobileNav'
 

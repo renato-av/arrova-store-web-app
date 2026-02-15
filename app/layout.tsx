@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 import { Header } from '@/shared/ui/components/header/Header'
-import { SEO_METADATA } from '@/shared/lib/constants/seo'
-import './index.css'
 import { Footer } from '@/shared/ui/components/footer/Footer'
+import { SEO_METADATA } from '@/shared/lib/constants'
+import './index.css'
 
 export const metadata: Metadata = SEO_METADATA
 

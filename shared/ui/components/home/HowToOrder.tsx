@@ -1,7 +1,6 @@
-import { steps } from '@/shared/lib/constants/how-to-order'
+import { steps } from '@/shared/lib/constants'
 
 export function HowToOrder() {
-
   return (
     <section className="bg-white">
       <div className="mx-auto max-w-6xl px-4 py-12 md:py-16">

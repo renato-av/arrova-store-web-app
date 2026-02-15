@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import { nav } from '@/shared/lib/constants/nav'
 import { Menu } from 'lucide-react'
+import { nav } from '@/shared/lib/constants'
 import { whatsappHref } from '@/shared/lib/utils'
 
 export default function MobileNav() {

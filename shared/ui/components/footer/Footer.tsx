@@ -1,27 +1,41 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { Instagram, MessageCircle, Music2 } from 'lucide-react'
 import { whatsappHref } from '@/shared/lib/utils'
+import { InstagramIcon, TiktokIcon, WhatsappIcon } from '@/shared/ui/icons'
+import { LOGO_IMAGE_URL, INSTAGRAM_URL, TIKTOK_URL  } from '@/shared/lib/constants'
 
-type Props = {
-  instagramUrl?: string
-  tiktokUrl?: string
-}
+const social = [
+  {
+    id: 'whatsapp',
+    ariaLabel: 'WhatsApp',
+    href: whatsappHref(),
+    Icon: WhatsappIcon,
+  },
+  {
+    id: 'instagram',
+    ariaLabel: 'Instagram',
+    href: INSTAGRAM_URL,
+    Icon: InstagramIcon,
+  },
+  {
+    id: 'tiktok',
+    ariaLabel: 'TikTok',
+    href: TIKTOK_URL,
+    Icon: TiktokIcon,
+  }
+]
 
-export function Footer({
-  instagramUrl = 'https://www.instagram.com/arrova.store',
-  tiktokUrl = 'https://www.tiktok.com/@arrova.store',
-}: Props) {
+export function Footer() {
   const year = new Date().getFullYear()
 
   return (
     <footer className="bg-white border-t border-black/10">
       <div className="mx-auto max-w-6xl px-4 py-10">
         <div className="grid gap-8 md:grid-cols-2">
-          <div className='order-2'>
+          <div>
             <div className="flex items-center gap-3">
               <Image
-                src="/brand/logo.png"
+                src={LOGO_IMAGE_URL}
                 alt="ARROVASTORE"
                 width={40}
                 height={40}
@@ -37,35 +51,20 @@ export function Footer({
             </div>
 
             <div className="mt-4 flex gap-3">
-              <a
-                href={whatsappHref()}
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-primary text-white hover:opacity-90"
-                aria-label="WhatsApp"
-              >
-                <MessageCircle size={18} />
-              </a>
-
-              <a
-                href={instagramUrl}
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-black/10 text-ink hover:bg-black/5"
-                aria-label="Instagram"
-              >
-                <Instagram size={18} />
-              </a>
-
-              <a
-                href={tiktokUrl}
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-black/10 text-ink hover:bg-black/5"
-                aria-label="TikTok"
-              >
-                <Music2 size={18} />
-              </a>
+              {
+                social.map(({ id, ariaLabel, href, Icon }) => (
+                  <a
+                    key={id}
+                    href={href}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-black/10 text-ink hover:bg-primary hover:text-white transition-colors duration-300"
+                    aria-label={ariaLabel}
+                  >
+                    <Icon />
+                  </a>
+                ))
+              }
             </div>
           </div>
 
