@@ -2,7 +2,7 @@ import { ORDER_STEPS } from '@/shared/lib/constants'
 
 export function HowToOrder() {
   return (
-    <section className="bg-white">
+    <section className="bg-white scroll-mt-12" id='instrucciones'>
       <div className="mx-auto max-w-6xl px-4 py-12 md:py-16">
         <div className="max-w-2xl">
           <h2 className="text-xl font-semibold tracking-tight text-ink md:text-2xl">

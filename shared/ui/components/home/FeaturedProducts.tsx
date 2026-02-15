@@ -11,7 +11,7 @@ export function FeaturedProducts({ products }: Props) {
   if (products.length === 0) return null
 
   return (
-    <section className="bg-white">
+    <section className="bg-white scroll-mt-12" id='catalogo'>
       <div className="mx-auto max-w-6xl px-4 py-12 md:py-16">
         <div className="flex items-end justify-between gap-4">
           <div>

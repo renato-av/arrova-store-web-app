@@ -1,8 +1,7 @@
 
 export const NAVIGATION_HOME_SECTIONS = [
-  { href: '/', label: 'Inicio' },
+  { href: '#inicio', label: 'Inicio' },
   { href: '#catalogo', label: 'Catálogo' },
-  { href: '#faq', label: 'FAQ' },
-  { href: '#terminos', label: 'Términos' },
+  { href: '#instrucciones', label: 'Instrucciones' },
   { href: '#contacto', label: 'Contacto' },
 ]

@@ -5,7 +5,7 @@ import { WhatsappIcon } from '@/shared/ui/icons'
 
 export function FinalCTA() {
   return (
-    <section className="bg-white">
+    <section className="bg-white scroll-mt-12" id='contacto'>
       <div className="mx-auto max-w-6xl px-4 py-12 md:py-16">
         <div className="relative overflow-hidden rounded-3xl border border-black/10 bg-white p-7 shadow-sm md:p-10">
           <div className="absolute -right-24 -top-24 h-72 w-72 rounded-full bg-brand-gradient opacity-25 blur-2xl" />

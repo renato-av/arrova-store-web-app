@@ -14,7 +14,7 @@ export function Header() {
             <Image
               src={LOGO_HORIZONTAL_IMAGE_URL}
               alt="ARROVASTORE"
-              width={150}
+              width={140}
               height={45}
               priority
             />
