@@ -1,6 +1,7 @@
-import { ListChecks, MessageCircle, Truck } from 'lucide-react'
+import { WhatsappIcon } from '@/shared/ui/icons'
+import { ListChecks, Truck } from 'lucide-react'
 
-export const steps = [
+export const ORDER_STEPS = [
   {
     title: 'Elige tu producto',
     description:
@@ -13,15 +14,15 @@ export const steps = [
     title: 'Coordinamos por WhatsApp',
     description:
       'Te damos precio (o rango), tiempos estimados y opciones de entrega según tu caso.',
-    note: 'Personalizados: iniciamos con 50% de adelanto',
-    icon: MessageCircle,
+    note: 'Iniciamos con 50% de adelanto',
+    icon: WhatsappIcon,
     number: '02',
   },
   {
     title: 'Lo preparamos y entregamos',
     description:
       'Producción limitada y entregas coordinadas en Lima (punto de entrega o delivery).',
-    note: 'En personalizados no hay cambios una vez iniciado',
+    note: 'Cambios según términos y condiciones',
     icon: Truck,
     number: '03',
   }

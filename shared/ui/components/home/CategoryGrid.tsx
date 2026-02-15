@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { ArrowLeft, ArrowRight } from 'lucide-react'
-import { categoryIconMap } from '../../icons/categoryIconst'
+import { categoryIconMap } from '@/shared/ui/icons'
 import { Category } from '@/shared/lib/catalog/categories'
 
 type Props = {

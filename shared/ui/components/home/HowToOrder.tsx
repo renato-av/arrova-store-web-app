@@ -1,4 +1,4 @@
-import { steps } from '@/shared/lib/constants'
+import { ORDER_STEPS } from '@/shared/lib/constants'
 
 export function HowToOrder() {
   return (
@@ -14,7 +14,7 @@ export function HowToOrder() {
         </div>
 
         <div className="mt-8 grid gap-4 md:grid-cols-3">
-          {steps.map(step => {
+          {ORDER_STEPS.map(step => {
             const Icon = step.icon
 
             return (

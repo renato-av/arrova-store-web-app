@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { Menu } from 'lucide-react'
-import { nav } from '@/shared/lib/constants'
+import { NAVIGATION_HOME_SECTIONS } from '@/shared/lib/constants'
 import { whatsappHref } from '@/shared/lib/utils'
 
 export default function MobileNav() {
@@ -15,7 +15,7 @@ export default function MobileNav() {
 
       <div className="absolute right-0 mt-2 w-56 rounded-2xl border border-black/10 bg-white shadow-lg p-2">
         <div className="flex flex-col">
-          {nav.map((item) => (
+          {NAVIGATION_HOME_SECTIONS.map((item) => (
             <Link
               key={item.href}
               href={item.href}

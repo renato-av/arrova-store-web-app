@@ -35,15 +35,15 @@ export function DeliveryStrip() {
             <div className="flex flex-col gap-3 sm:flex-row">
               <Link
                 href="/faq"
-                className="inline-flex items-center justify-center gap-2 rounded-full bg-white px-5 py-3 text-sm font-medium text-ink border border-black/10 hover:bg-black/5"
+                className="inline-flex items-center justify-center gap-2 rounded-full bg-white px-5 py-3 text-sm text-ink border border-black/10 hover:bg-black/5"
               >
-                Ver preguntas frecuentes
+                Preguntas frecuentes
                 <ArrowRight size={16} />
               </Link>
 
               <Link
                 href="/contacto"
-                className="inline-flex items-center justify-center gap-2 rounded-full bg-primary px-5 py-3 text-sm font-medium text-white hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 ring-brand"
+                className="inline-flex items-center justify-center gap-2 rounded-full bg-primary px-5 py-3 text-sm text-white hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 ring-brand"
               >
                 Contacto
                 <ArrowRight size={16} />

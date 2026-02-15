@@ -1,5 +1,5 @@
 
-export const nav = [
+export const NAVIGATION_HOME_SECTIONS = [
   { href: '/', label: 'Inicio' },
   { href: '#catalogo', label: 'Catálogo' },
   { href: '#faq', label: 'FAQ' },

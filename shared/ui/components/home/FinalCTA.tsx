@@ -1,6 +1,7 @@
 import Link from 'next/link'
-import { MessageCircle, ArrowRight, Sparkles } from 'lucide-react'
+import { ArrowRight, Sparkles } from 'lucide-react'
 import { whatsappHref } from '@/shared/lib/utils'
+import { WhatsappIcon } from '@/shared/ui/icons'
 
 export function FinalCTA() {
   return (
@@ -33,7 +34,7 @@ export function FinalCTA() {
                   rel="noreferrer"
                   className="inline-flex items-center justify-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-medium text-white hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 ring-brand"
                 >
-                  <MessageCircle size={18} strokeWidth={1.8} />
+                  <WhatsappIcon />
                   Pedir por WhatsApp
                 </a>
 

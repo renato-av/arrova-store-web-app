@@ -1,8 +1,9 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { nav } from '@/shared/lib/constants'
+import { LOGO_HORIZONTAL_IMAGE_URL, NAVIGATION_HOME_SECTIONS } from '@/shared/lib/constants'
 import { whatsappHref } from '@/shared/lib/utils'
 import MobileNav from './MobileNav'
+import { WhatsappIcon } from '@/shared/ui/icons'
 
 export function Header() {
   return (
@@ -11,7 +12,7 @@ export function Header() {
         <div className="h-16 flex items-center justify-between gap-3">
           <Link href="/" className="flex items-center gap-2">
             <Image
-              src="/brand/logo-horizontal-sin-fondo.png"
+              src={LOGO_HORIZONTAL_IMAGE_URL}
               alt="ARROVASTORE"
               width={150}
               height={45}
@@ -20,7 +21,7 @@ export function Header() {
           </Link>
 
           <nav className="hidden md:flex items-center gap-6">
-            {nav.map((item) => (
+            {NAVIGATION_HOME_SECTIONS.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
@@ -34,8 +35,9 @@ export function Header() {
             href={whatsappHref()}
             target="_blank"
             rel="noreferrer"
-            className="items-center justify-center rounded-full px-4 py-2 text-sm font-medium text-white bg-primary hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 ring-brand hidden md:inline-flex"
+            className="items-center justify-center rounded-full px-4 py-2 text-sm font-medium text-white bg-primary hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 ring-brand hidden md:inline-flex md:gap-x-2"
           >
+            <WhatsappIcon />
             WhatsApp
           </a>
 
