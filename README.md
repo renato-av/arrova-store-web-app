@@ -13,14 +13,9 @@ futuro
 Arrova Store trabaja con **producción limitada** y atención
 personalizada, no como una tienda masiva.
 
-Existen dos líneas de producto:
-
--   **Productos personalizados (hechos a pedido)**\
-    Elaborados artesanalmente bajo confirmación previa, con tiempos de
-    producción definidos y adelanto del 50%.
-
--   **Productos en stock**\
-    Accesorios listos para entrega, con disponibilidad limitada.
+**Productos personalizados (hechos a pedido)**\
+Elaborados artesanalmente bajo confirmación previa, con tiempos de
+producción definidos y adelanto del 50%.
 
 La web busca comunicar claramente estos procesos, generar confianza y
 dirigir la conversión hacia WhatsApp.

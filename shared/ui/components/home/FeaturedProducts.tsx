@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { ProductCard } from '@/shared/ui/components/product/ProductCard'
 import type { Product } from '@/shared/lib/catalog/products'
-import { ArrowLeft } from 'lucide-react'
+import { ArrowRight, ShoppingBag } from 'lucide-react'
 
 type Props = {
   products: Product[]
@@ -11,11 +11,12 @@ export function FeaturedProducts({ products }: Props) {
   if (products.length === 0) return null
 
   return (
-    <section className="bg-white scroll-mt-12" id='catalogo'>
+    <section className="bg-white scroll-mt-12" id='destacados'>
       <div className="mx-auto max-w-6xl px-4 py-12 md:py-16">
         <div className="flex items-end justify-between gap-4">
           <div>
-            <h2 className="text-xl font-semibold tracking-tight text-ink md:text-2xl">
+            <h2 className="text-xl font-semibold tracking-tight text-ink md:text-2xl inline-flex items-center gap-x-2">
+              <ShoppingBag className="text-primary" />
               Productos destacados
             </h2>
             <p className="mt-1 text-sm text-ink/70">
@@ -25,10 +26,10 @@ export function FeaturedProducts({ products }: Props) {
 
           <Link
             href="/catalogo"
-            className="hidden sm:inline-flex text-sm font-medium text-primary hover:opacity-90"
+            className="hidden sm:inline-flex items-center text-sm font-medium text-primary hover:opacity-90"
           >
             Ver catálogo
-            <ArrowLeft />
+            <ArrowRight size={20} />
           </Link>
         </div>
 
@@ -44,7 +45,7 @@ export function FeaturedProducts({ products }: Props) {
             className="inline-flex text-sm font-medium text-primary hover:opacity-90"
           >
             Ver catálogo
-            <ArrowLeft />
+            <ArrowRight size={20}/>
           </Link>
         </div>
       </div>

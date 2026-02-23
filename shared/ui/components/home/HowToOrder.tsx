@@ -2,14 +2,21 @@ import { ORDER_STEPS } from '@/shared/lib/constants'
 
 export function HowToOrder() {
   return (
-    <section className="bg-white scroll-mt-12" id='instrucciones'>
+    <section className="bg-white scroll-mt-12" id="instrucciones">
       <div className="mx-auto max-w-6xl px-4 py-12 md:py-16">
         <div className="max-w-2xl">
-          <h2 className="text-xl font-semibold tracking-tight text-ink md:text-2xl">
-            Cómo pedir
+          <div className="inline-flex items-center gap-2 rounded-full border border-black/10 bg-white px-3 py-1 text-xs text-ink/80">
+            <span className="inline-block h-2 w-2 rounded-full bg-primary" />
+            Atención personalizada • Coordinación directa
+          </div>
+
+          <h2 className="mt-4 text-xl font-semibold tracking-tight text-ink md:text-2xl">
+            Cómo trabajamos tu pedido
           </h2>
+
           <p className="mt-2 text-sm text-ink/70 md:text-base">
-            Atención directa para que tu pedido salga tal como lo esperas
+            Cada pedido se coordina previamente para definir detalles, tiempos y
+            entrega. Así aseguramos un resultado cuidado y alineado a lo que deseas.
           </p>
         </div>
 
@@ -27,7 +34,7 @@ export function HowToOrder() {
                     <Icon size={22} strokeWidth={1.8} />
                   </div>
 
-                  <span className="text-sm font-semibold text-ink/30">
+                  <span className="rounded-full bg-black/5 px-3 py-1 text-xs font-semibold text-ink/60">
                     {step.number}
                   </span>
                 </div>

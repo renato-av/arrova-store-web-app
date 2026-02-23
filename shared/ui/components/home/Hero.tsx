@@ -6,13 +6,13 @@ import { WhatsappIcon } from '@/shared/ui/icons'
 
 export function Hero() {
   return (
-    <section className="bg-white scroll-mt-14" id='inicio'>
+    <section className="bg-white scroll-mt-14" id="inicio">
       <div className="mx-auto max-w-6xl px-4 pt-10 pb-8 md:pt-16 md:pb-12">
         <div className="grid items-center gap-8 md:grid-cols-2">
           <div>
             <div className="inline-flex items-center gap-2 rounded-full border border-black/10 bg-white px-3 py-1 text-xs text-ink/80">
               <span className="inline-block h-2 w-2 rounded-full bg-primary" />
-              Hecho a mano
+              Hecho a tu medida
             </div>
 
             <h1 className="mt-4 text-3xl font-semibold tracking-tight text-ink sm:text-4xl md:text-5xl">
@@ -21,9 +21,9 @@ export function Hero() {
             </h1>
 
             <p className="mt-4 text-base leading-relaxed text-ink/80 md:text-lg">
-              Creamos piezas artesanales con valor emocional y accesorios en stock.
-              Coordinamos contigo por WhatsApp los detalles, tiempos de producción y
-              entrega para que todo salga perfecto.
+              Creamos piezas artesanales con valor emocional, hechas especialmente para ti.
+              Coordinamos por WhatsApp los detalles, tiempos de producción y entrega para que
+              todo salga como lo imaginas.
             </p>
 
             <div className="mt-6 flex flex-col gap-3 sm:flex-row">
@@ -41,16 +41,16 @@ export function Hero() {
                 href="/catalogo"
                 className="inline-flex items-center justify-center rounded-full border border-black/10 bg-white px-6 py-3 text-sm font-medium text-ink hover:bg-black/5"
               >
-                Ver catálogo
+                Ver ideas en el catálogo
               </Link>
             </div>
 
             <div className="mt-6 flex flex-wrap gap-2 text-xs text-ink/70">
               <span className="rounded-full bg-black/5 px-3 py-1">
-                Personalizados: adelanto 50%
+                Se inicia con 50% de adelanto
               </span>
               <span className="rounded-full bg-black/5 px-3 py-1">
-                Piezas hechas a mano con mucho cariño
+                Tiempos según el diseño
               </span>
               <span className="rounded-full bg-black/5 px-3 py-1">
                 Entregas coordinadas (Lima)
@@ -73,7 +73,7 @@ export function Hero() {
               </div>
 
               <p className="mt-4 text-center text-sm text-ink/70">
-                Regalos con intención y trato cercano.
+                Regalos con intención, hechos especialmente para alguien especial.
               </p>
             </div>
           </div>

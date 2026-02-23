@@ -3,26 +3,26 @@ import { ListChecks, Truck } from 'lucide-react'
 
 export const ORDER_STEPS = [
   {
-    title: 'Elige tu producto',
+    title: 'Elige una idea del catálogo',
     description:
-      'Personalizado: envíanos una referencia. En stock: confirmamos disponibilidad antes de coordinar.',
-    note: 'Tip: dinos para cuándo lo necesitas',
+      'Revisa nuestras piezas y envíanos una referencia o detalle del diseño que deseas personalizar.',
+    note: 'Cada pieza se elabora de manera artesanal bajo pedido',
     icon: ListChecks,
     number: '01',
   },
   {
     title: 'Coordinamos por WhatsApp',
     description:
-      'Te damos precio (o rango), tiempos estimados y opciones de entrega según tu caso.',
-    note: 'Iniciamos con 50% de adelanto',
+      'Te indicamos precio (o rango), tiempos de producción y detalles de entrega según tu caso.',
+    note: 'Se inicia con 50% de adelanto',
     icon: WhatsappIcon,
     number: '02',
   },
   {
-    title: 'Lo preparamos y entregamos',
+    title: 'Elaboramos y entregamos',
     description:
-      'Producción limitada y entregas coordinadas en Lima (punto de entrega o delivery).',
-    note: 'Cambios según términos y condiciones',
+      'Trabajamos tu pedido y coordinamos la entrega en Lima (punto acordado o delivery).',
+    note: 'Al ser un trabajo personalizado, no se aceptan cambios una vez iniciado',
     icon: Truck,
     number: '03',
   }

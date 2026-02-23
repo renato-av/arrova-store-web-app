@@ -42,7 +42,7 @@ export function Footer() {
               />
               <div>
                 <p className="text-sm font-semibold tracking-tight text-ink">
-                  ARROVASTORE
+                  Arrova Store
                 </p>
                 <p className="text-xs text-ink/70">
                   Regalos hechos a mano y personalizados
@@ -84,7 +84,7 @@ export function Footer() {
         </div>
 
         <div className="mt-8 flex flex-col gap-2 border-t border-black/10 pt-4 text-xs text-ink/60 md:flex-row md:items-center md:justify-between">
-          <p>© {year} ARROVASTORE. Todos los derechos reservados.</p>
+          <p>© {year} Arrova Store. Todos los derechos reservados.</p>
 
           <div className="flex gap-4">
             <Link href="/terminos" className="hover:text-ink">Términos</Link>

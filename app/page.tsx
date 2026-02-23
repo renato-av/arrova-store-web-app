@@ -1,6 +1,6 @@
 import { getHomeCategories } from '@/shared/lib/catalog/categories'
 import { getFeaturedProducts } from '@/shared/lib/catalog/products'
-import { CategoryGrid, FeaturedProducts, Hero, HowToOrder, LineComparison, DeliveryStrip, FinalCTA } from '@/shared/ui/components/home'
+import { CategoryGrid, FeaturedProducts, Hero, HowToOrder, DeliveryStrip, FinalCTA, BeforeYouOrder } from '@/shared/ui/components/home'
 
 
 export default function Home() {
@@ -10,10 +10,13 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <HowToOrder />
+
+      <BeforeYouOrder />
+
       <CategoryGrid categories={categories} />
       <FeaturedProducts products={featuredProducts} />
-      <HowToOrder />
-      <LineComparison />
+
       <DeliveryStrip />
       <FinalCTA />
     </>

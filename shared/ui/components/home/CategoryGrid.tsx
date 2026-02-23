@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { ArrowLeft, ArrowRight } from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
 import { categoryIconMap } from '@/shared/ui/icons'
 import { Category } from '@/shared/lib/catalog/categories'
 
@@ -14,22 +14,22 @@ export function CategoryGrid({ categories }: Props) {
         <div className="flex items-end justify-between gap-4">
           <div>
             <h2 className="text-xl font-semibold tracking-tight text-ink md:text-2xl">
-              Explora por categorías
+              Explora nuestras ideas
             </h2>
             <p className="mt-1 text-sm text-ink/70">
-              Encuentra regalos personalizados y productos en stock.
+              Todas nuestras piezas se elaboran bajo pedido y coordinación previa.
             </p>
           </div>
 
           <Link
             href="/catalogo"
-            className="hidden sm:inline-flex text-sm font-medium text-primary hover:opacity-90"
+            className="hidden items-center gap-1 sm:inline-flex text-sm font-medium text-primary hover:opacity-90"
           >
-            Ver todo →
+            Ver todo <ArrowRight size={16} />
           </Link>
         </div>
 
-        <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4 auto-rows-fr">
           {categories.map((c) => {
             const Icon = categoryIconMap[c.id]
 
@@ -37,27 +37,27 @@ export function CategoryGrid({ categories }: Props) {
               <Link
                 key={c.id}
                 href={`/catalogo?categoria=${c.id}`}
-                className="group rounded-2xl border grid place-items-start border-black/10 bg-white p-2 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md"
+                className="group h-full min-h-21 rounded-2xl border border-black/10 bg-white px-4 py-4 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md"
               >
-                <div className="flex w-full items-center justify-between gap-4">
-                  <div className="flex items-center gap-3">
-                    <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-black/5 text-primary group-hover:bg-primary/10">
+                <div className="flex h-full items-center justify-between gap-4">
+                  <div className="flex items-center gap-3 min-w-0">
+                    <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-black/5 text-primary group-hover:bg-primary/10">
                       {Icon && <Icon size={22} strokeWidth={1.8} />}
                     </div>
 
-                    <div>
-                      <p className="text-base font-semibold text-ink group-hover:text-primary transition-colors">
+                    <div className="min-w-0" title={c.label}>
+                      <p className="truncate text-base font-semibold text-ink transition-colors group-hover:text-primary">
                         {c.label}
                       </p>
                       <p className="mt-1 text-sm text-ink/70">
-                        Ver productos
+                        Ver ideas
                       </p>
                     </div>
                   </div>
 
                   <ArrowRight
                     size={18}
-                    className="mt-1 text-ink/40 transition-transform group-hover:translate-x-1"
+                    className="shrink-0 text-ink/40 transition-transform group-hover:translate-x-1"
                   />
                 </div>
               </Link>
@@ -68,9 +68,9 @@ export function CategoryGrid({ categories }: Props) {
         <div className="mt-6 sm:hidden">
           <Link
             href="/catalogo"
-            className="inline-flex text-sm font-medium text-primary hover:opacity-90"
+            className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:opacity-90"
           >
-            Ver todo <ArrowLeft />
+            Ver todo <ArrowRight size={16} />
           </Link>
         </div>
       </div>
