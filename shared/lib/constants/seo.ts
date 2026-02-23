@@ -1,51 +1,67 @@
 export const SEO_METADATA = {
-  metadataBase: new URL('https://www.arrovastore.com'),
+  metadataBase: new URL('https://arrovastore.com'),
+
   title: {
-    default: 'Arrova Store | Regalos hechos a mano y personalizados',
+    default: 'Arrova Store | Regalos personalizados hechos a mano en Lima',
     template: '%s | Arrova Store',
   },
+
   description:
-    'Regalos y accesorios hechos a mano y personalizados. Producción a pedido, atención directa y entregas coordinadas en Lima.',
+    'Arrova Store crea regalos personalizados y hechos a mano en Lima. Amigurumis, tejidos artesanales y detalles con valor emocional. Atención directa por WhatsApp y entregas coordinadas.',
+
   keywords: [
-    'regalos personalizados',
-    'regalos hechos a mano',
-    'amigurumi',
-    'tejidos artesanales',
-    'regalos en Lima',
-    'accesorios artesanales',
-    'arrova store',
+    'Arrova Store',
+    'regalos personalizados en Lima',
+    'regalos hechos a mano en Lima',
+    'amigurumi personalizado Lima',
+    'tejidos artesanales Perú',
+    'regalos artesanales Lima',
+    'detalles personalizados Lima',
   ],
-  icons: {
-    icon: '/brand/logo-sin-fondo.png'
+
+  alternates: {
+    canonical: 'https://arrovastore.com',
   },
-  authors: [{ name: 'Renato Arredondo' }],
+
+  icons: {
+    icon: '/brand/logo-sin-fondo.png',
+  },
+
+  authors: [{ name: 'Arrova Store' }],
   creator: 'Arrova Store',
+
   openGraph: {
     type: 'website',
     locale: 'es_PE',
     url: 'https://arrovastore.com',
     siteName: 'Arrova Store',
-    title: 'Arrova Store | Regalos hechos a mano y personalizados',
+    title: 'Arrova Store | Regalos personalizados hechos a mano en Lima',
     description:
-      'Regalos y accesorios artesanales hechos a pedido. Cada pieza se trabaja con cuidado, procesos claros y atención personalizada.',
+      'Regalos personalizados hechos a mano en Lima. Amigurumis y tejidos artesanales con atención directa y coordinación por WhatsApp.',
     images: [
       {
-        url: '/brand/logo.png',
-        width: 512,
-        height: 512,
-        alt: 'Arrova Store - regalos hechos a mano',
+        url: 'https://arrovastore.com/brand/logo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Arrova Store - Regalos personalizados en Lima',
       },
     ],
   },
+
   twitter: {
     card: 'summary_large_image',
-    title: 'Arrova Store | Regalos hechos a mano y personalizados',
+    title: 'Arrova Store | Regalos personalizados en Lima',
     description:
-      'Regalos artesanales y personalizados con atención directa. Producción limitada y entregas coordinadas.',
-    images: ['/brand/logo.png'],
+      'Amigurumis y regalos hechos a mano con atención directa y entregas coordinadas en Lima.',
+    images: ['https://arrovastore.com/brand/logo.png'],
   },
+
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true
+    },
   },
 }
