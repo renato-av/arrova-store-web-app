@@ -4,7 +4,6 @@ export type Product = {
   id: number
   slug: string
   name: string
-  line: 'personalizado' | 'stock'
   featured: boolean
   categoryId: number
   tagIds: number[]
@@ -31,11 +30,10 @@ export function getAvailableProducts() {
   return getAllProducts().filter(p => p.available)
 }
 
-export function filterProducts(params: { categoryId?: number; line?: Product['line'] }) {
-  const { categoryId, line } = params
+export function filterProducts(params: { categoryId?: number }) {
+  const { categoryId } = params
   return getAvailableProducts().filter(p => {
     if (categoryId && p.categoryId !== categoryId) return false
-    if (line && p.line !== line) return false
     return true
   })
 }
