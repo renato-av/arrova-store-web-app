@@ -77,8 +77,8 @@ export function Footer() {
               <li><Link href="/" className="hover:text-ink">Inicio</Link></li>
               <li><Link href="/catalogo" className="hover:text-ink">Catálogo</Link></li>
               <li><Link href="/faq" className="hover:text-ink">FAQ</Link></li>
-              <li><Link href="/terminos" className="hover:text-ink">Términos</Link></li>
-              <li><Link href="/contacto" className="hover:text-ink">Contacto</Link></li>
+              {/* <li><Link href="/terminos" className="hover:text-ink">Términos</Link></li> */}
+              {/* <li><Link href="/contacto" className="hover:text-ink">Contacto</Link></li> */}
             </ul>
           </nav>
         </div>
@@ -87,7 +87,7 @@ export function Footer() {
           <p>© {year} Arrova Store. Todos los derechos reservados.</p>
 
           <div className="flex gap-4">
-            <Link href="/terminos" className="hover:text-ink">Términos</Link>
+            {/* <Link href="/terminos" className="hover:text-ink">Términos</Link> */}
             <Link href="/faq" className="hover:text-ink">FAQ</Link>
             <a href={whatsappHref()} target="_blank" rel="noreferrer" className="hover:text-ink">
               WhatsApp
