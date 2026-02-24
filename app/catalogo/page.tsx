@@ -52,7 +52,7 @@ export default function CatalogPage() {
 
       <section>
         <div className="mx-auto max-w-6xl px-4 pb-12 md:pb-16">
-          <div className="grid gap-6 grid-cols-responsive">
+          <div className="grid gap-6 grid-responsive">
             {products.map(p => (
               <ProductCard key={p.id} product={p} />
             ))}

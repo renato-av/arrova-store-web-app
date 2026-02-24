@@ -33,7 +33,7 @@ export function FeaturedProducts({ products }: Props) {
           </Link>
         </div>
 
-        <div className="mt-6 grid gap-6 grid-cols-responsive">
+        <div className="mt-6 grid gap-6 grid-responsive">
           {products.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
