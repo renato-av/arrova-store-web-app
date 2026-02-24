@@ -1,3 +1,4 @@
+export * from './faq'
 export * from './how-to-order'
 export * from './images'
 export * from './nav'
