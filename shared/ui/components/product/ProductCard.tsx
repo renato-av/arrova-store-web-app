@@ -1,25 +1,9 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { ArrowRight, Sparkle } from 'lucide-react'
-import { Product } from '@/shared/lib/catalog/products'
+import { formatPrice, getCoverImage, pricePrefix, Product } from '@/shared/lib/catalog/products'
 
 type Props = { product: Product }
-
-function getCoverImage(product: Product) {
-  return product.images.find(img => img.isCover) ?? product.images[0]
-}
-
-function formatPrice(product: Product) {
-  const { price } = product
-
-  if (price.type === 'fixed' && price.amount) return `S/ ${price.amount}`
-  if (price.type === 'range' && price.min && price.max) return `S/ ${price.min}`
-  return 'Consultar precio'
-}
-
-function pricePrefix(product: Product) {
-  return product.price.type === 'range' ? 'Desde ' : ''
-}
 
 export function ProductCard({ product }: Props) {
   const image = getCoverImage(product)

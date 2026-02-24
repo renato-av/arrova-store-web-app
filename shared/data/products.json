@@ -24,9 +24,11 @@
       "disclaimer": "Trabajamos con referencias generales; no se garantizan réplicas exactas."
     },
     "images": [
-      { "src": "/products/1.png", "alt": "Muñeco amigurumi personalizado", "isCover": true }
+      { "src": "/products/1.png", "alt": "Muñeco amigurumi personalizado", "isCover": true },
+      { "src": "/products/2.png", "alt": "Muñeco amigurumi personalizado", "isCover": false },
+      { "src": "/products/3.png", "alt": "Muñeco amigurumi personalizado", "isCover": false }
     ],
-    "contact": { "whatsappMessage": "Hola ARROVASTORE 👋 Me interesa un Muñeco amigurumi personalizado. ¿Qué opciones manejan, tiempo de entrega y precio según el diseño?" }
+    "contact": { "whatsappMessage": "Hola Arrova Store! Me interesa un Muñeco amigurumi personalizado. ¿Qué opciones manejan, tiempo de entrega y precio según el diseño?" }
   },
   {
     "id": 2,
@@ -54,7 +56,7 @@
     "images": [
       { "src": "/products/2.png", "alt": "Mantita de apego tejida con osito", "isCover": true }
     ],
-    "contact": { "whatsappMessage": "Hola ARROVASTORE 👋 Me interesa la Mantita de apego (osito). ¿Qué colores hay y cuál sería el tiempo de entrega?" }
+    "contact": { "whatsappMessage": "Hola Arrova Store! Me interesa la Mantita de apego (osito). ¿Qué colores hay y cuál sería el tiempo de entrega?" }
   },
   {
     "id": 3,
@@ -82,7 +84,7 @@
     "images": [
       { "src": "/products/3.png", "alt": "Mantita de apego tejida con conejita", "isCover": true }
     ],
-    "contact": { "whatsappMessage": "Hola ARROVASTORE 👋 Me interesa la Mantita de apego (conejita). ¿Qué colores y tiempo de producción manejan?" }
+    "contact": { "whatsappMessage": "Hola Arrova Store! Me interesa la Mantita de apego (conejita). ¿Qué colores y tiempo de producción manejan?" }
   },
   {
     "id": 4,
@@ -110,7 +112,7 @@
     "images": [
       { "src": "/products/4.png", "alt": "Llavero amigurumi tipo monstruito", "isCover": true }
     ],
-    "contact": { "whatsappMessage": "Hola ARROVASTORE 👋 Me interesa el Llavero amigurumi (monstruito). ¿Qué colores hay y cuánto demora?" }
+    "contact": { "whatsappMessage": "Hola Arrova Store! Me interesa el Llavero amigurumi (monstruito). ¿Qué colores hay y cuánto demora?" }
   },
   {
     "id": 5,
@@ -138,7 +140,7 @@
     "images": [
       { "src": "/products/5.png", "alt": "Chal tejido calado color blanco", "isCover": true }
     ],
-    "contact": { "whatsappMessage": "Hola ARROVASTORE 👋 Me interesa el Chal tejido calado. ¿Qué tamaños/colores manejan y cuál es el precio?" }
+    "contact": { "whatsappMessage": "Hola Arrova Store! Me interesa el Chal tejido calado. ¿Qué tamaños/colores manejan y cuál es el precio?" }
   },
   {
     "id": 6,
@@ -166,7 +168,7 @@
     "images": [
       { "src": "/products/6.png", "alt": "Bolso tipo red tejido color crudo", "isCover": true }
     ],
-    "contact": { "whatsappMessage": "Hola ARROVASTORE 👋 Me interesa el Bolso red tejido. ¿Qué tamaños y colores hay disponibles?" }
+    "contact": { "whatsappMessage": "Hola Arrova Store! Me interesa el Bolso red tejido. ¿Qué tamaños y colores hay disponibles?" }
   },
   {
     "id": 7,
@@ -194,7 +196,7 @@
     "images": [
       { "src": "/products/7.png", "alt": "Muñeco amigurumi estilo urbano", "isCover": true }
     ],
-    "contact": { "whatsappMessage": "Hola ARROVASTORE 👋 Me interesa el Muñeco amigurumi estilo urbano. ¿Qué necesito enviar como referencia y cuál es el rango de precio?" }
+    "contact": { "whatsappMessage": "Hola Arrova Store! Me interesa el Muñeco amigurumi estilo urbano. ¿Qué necesito enviar como referencia y cuál es el rango de precio?" }
   },
   {
     "id": 8,
@@ -222,7 +224,7 @@
     "images": [
       { "src": "/products/8.png", "alt": "Bolso de mano tejido con asas", "isCover": true }
     ],
-    "contact": { "whatsappMessage": "Hola ARROVASTORE 👋 ¿Sigue disponible el Bolso de mano tejido con asas? Quisiera coordinar entrega." }
+    "contact": { "whatsappMessage": "Hola Arrova Store! ¿Sigue disponible el Bolso de mano tejido con asas? Quisiera coordinar entrega." }
   },
   {
     "id": 9,
@@ -249,7 +251,7 @@
     "images": [
       { "src": "/products/9.png", "alt": "Monedero tejido trenzado", "isCover": true }
     ],
-    "contact": { "whatsappMessage": "Hola ARROVASTORE 👋 Me interesa el Monedero tejido trenzado. ¿Está disponible?" }
+    "contact": { "whatsappMessage": "Hola Arrova Store! Me interesa el Monedero tejido trenzado. ¿Está disponible?" }
   },
   {
     "id": 10,
@@ -276,7 +278,7 @@
     "images": [
       { "src": "/products/10.png", "alt": "Case lila para AirPods", "isCover": true }
     ],
-    "contact": { "whatsappMessage": "Hola ARROVASTORE 👋 Me interesa el Case para AirPods (lila). ¿Para qué modelos está disponible?" }
+    "contact": { "whatsappMessage": "Hola Arrova Store! Me interesa el Case para AirPods (lila). ¿Para qué modelos está disponible?" }
   },
   {
     "id": 11,
@@ -303,7 +305,7 @@
     "images": [
       { "src": "/products/11.png", "alt": "Case para Apple Watch", "isCover": true }
     ],
-    "contact": { "whatsappMessage": "Hola ARROVASTORE 👋 Me interesan los cases para Apple Watch. ¿Qué tallas/modelos tienen disponibles?" }
+    "contact": { "whatsappMessage": "Hola Arrova Store! Me interesan los cases para Apple Watch. ¿Qué tallas/modelos tienen disponibles?" }
   },
   {
     "id": 12,
@@ -330,7 +332,7 @@
     "images": [
       { "src": "/products/12.png", "alt": "Pulsera de piedra para él", "isCover": true }
     ],
-    "contact": { "whatsappMessage": "Hola ARROVASTORE 👋 Me interesa la Pulsera de piedra (para él). ¿Está disponible?" }
+    "contact": { "whatsappMessage": "Hola Arrova Store! Me interesa la Pulsera de piedra (para él). ¿Está disponible?" }
   },
   {
     "id": 13,
@@ -357,6 +359,6 @@
     "images": [
       { "src": "/products/13.png", "alt": "Set de brochas de maquillaje", "isCover": true }
     ],
-    "contact": { "whatsappMessage": "Hola ARROVASTORE 👋 Me interesa el Set de brochas de maquillaje. ¿Sigue disponible?" }
+    "contact": { "whatsappMessage": "Hola Arrova Store! Me interesa el Set de brochas de maquillaje. ¿Sigue disponible?" }
   }
 ]
