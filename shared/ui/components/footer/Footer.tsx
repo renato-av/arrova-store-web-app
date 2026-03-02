@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { whatsappHref } from '@/shared/lib/utils'
 import { InstagramIcon, TiktokIcon, WhatsappIcon } from '@/shared/ui/icons'
-import { LOGO_IMAGE_URL, INSTAGRAM_URL, TIKTOK_URL  } from '@/shared/lib/constants'
+import { LOGO_IMAGE_URL, INSTAGRAM_URL, TIKTOK_URL, LIBRO_DE_RECLAMACIONES_IMAGE_URL } from '@/shared/lib/constants'
 
 const social = [
   {
@@ -65,6 +65,17 @@ export function Footer() {
                   </a>
                 ))
               }
+            </div>
+
+            <div className='mt-4'>
+              <Link href={'/libro-de-reclamaciones'}>
+                <Image
+                  src={LIBRO_DE_RECLAMACIONES_IMAGE_URL}
+                  width={120}
+                  height={100}
+                  alt="Libro de Reclamaciones"
+                />
+              </Link>
             </div>
           </div>
 
