@@ -1,12 +1,25 @@
 import { whatsappHref } from '@/shared/lib/utils'
 import { getAllCategories } from '@/shared/lib/catalog/categories'
-import { getAllProducts } from '@/shared/lib/catalog/products'
+import { filterProducts } from '@/shared/lib/catalog/products'
 import { ProductCard } from '@/shared/ui/components/product/ProductCard'
 import { WhatsappIcon } from '@/shared/ui/icons'
+import Link from 'next/link'
 
-export default function CatalogPage() {
+export default async function CatalogPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ categoria?: string | string[] }>
+}) {
   const categories = getAllCategories()
-  const products = getAllProducts()
+  const { categoria } = await searchParams
+  const selectedCategory = categories.find(c => String(c.id) === categoria)
+  const products = filterProducts({ categoryId: selectedCategory?.id })
+  const categoryClassName = (active: boolean) =>
+    `shrink-0 rounded-full border px-4 py-2 text-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary ${
+      active
+        ? 'border-primary bg-primary text-white'
+        : 'border-black/10 bg-white text-ink hover:bg-black/5'
+    }`
 
   return (
     <main className="bg-white">
@@ -32,20 +45,23 @@ export default function CatalogPage() {
             </p>
           </div>
 
-          <div className="mt-4 flex gap-2 overflow-x-auto pb-2 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-            <button className="shrink-0 rounded-full bg-primary text-white px-4 py-2 text-sm">
+          <nav aria-label="Filtrar por categoría" className="mt-4 flex gap-2 overflow-x-auto pb-2 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+            <Link href="/catalogo" scroll={false} aria-current={!selectedCategory ? 'page' : undefined} className={categoryClassName(!selectedCategory)}>
               Todas
-            </button>
+            </Link>
 
             {categories.map(c => (
-              <button
+              <Link
                 key={c.id}
-                className="shrink-0 rounded-full border border-black/10 bg-white px-4 py-2 text-sm text-ink hover:bg-black/5"
+                href={`/catalogo?categoria=${c.id}`}
+                scroll={false}
+                aria-current={selectedCategory?.id === c.id ? 'page' : undefined}
+                className={categoryClassName(selectedCategory?.id === c.id)}
               >
                 {c.label}
-              </button>
+              </Link>
             ))}
-          </div>
+          </nav>
 
         </div>
       </section>
@@ -57,6 +73,11 @@ export default function CatalogPage() {
               <ProductCard key={p.id} product={p} />
             ))}
           </div>
+          {products.length === 0 && (
+            <p className="py-8 text-center text-sm text-ink/70">
+              No hay productos disponibles en esta categoría por ahora.
+            </p>
+          )}
         </div>
       </section>
 
