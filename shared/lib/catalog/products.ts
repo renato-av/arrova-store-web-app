@@ -11,7 +11,7 @@ export type Product = {
   tagIds: number[]
   available: boolean
   price: {
-    type: 'fixed' | 'range'
+    type: 'fixed' | 'range' | 'quote'
     currency: string
     amount?: number
     min?: number

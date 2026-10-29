@@ -1,7 +1,7 @@
 import {
   Gift,
   ShoppingBag,
-  Smartphone,
+  Flower2,
   Sparkles,
   type LucideIcon,
 } from 'lucide-react'
@@ -9,6 +9,6 @@ import {
 export const categoryIconMap: Record<number, LucideIcon> = {
   1: Gift,
   2: ShoppingBag,
-  3: Smartphone,
+  6: Flower2,
   4: Sparkles,
 }

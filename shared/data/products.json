@@ -1,364 +1,3350 @@
 [
   {
-    "id": 1,
-    "slug": "muneco-amigurumi-personalizado",
-    "name": "Muñeco amigurumi personalizado",
-    "subtitle": "Hecho a pedido con detalles a elección",
-    "description": "Muñeco tejido a mano inspirado en una referencia. Ideal para regalos con valor emocional. Se trabaja con adelanto y tiempos de producción acordados antes de iniciar.",
+    "id": 1001,
+    "slug": "llaveros-sanrio-personalizados",
+    "name": "Llaveros Sanrio personalizados",
+    "description": "Llaveros tejidos de personajes de Sanrio. Personaliza tus personajes favoritos.",
     "categoryId": 1,
-    "tagIds": [1, 3, 4, 9, 10, 5],
+    "tagIds": [
+      3,
+      4,
+      10,
+      1,
+      8
+    ],
     "featured": true,
     "available": true,
-    "price": { "type": "range", "currency": "PEN", "min": 120, "max": 220, "note": "El precio varía según tamaño, complejidad y accesorios." },
-    "payment": { "depositPercent": 50, "balanceOnDelivery": true },
-    "fulfillment": {
-      "productionTime": { "minDays": 5, "maxDays": 10 },
-      "deliveryArea": "Lima Metropolitana",
-      "deliveryMethods": ["punto_entrega", "delivery_coord"],
-      "deliveryNotes": "Se confirma fecha exacta por WhatsApp antes de iniciar."
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
     },
-    "policies": {
-      "noCancellationsAfterStart": true,
-      "noDesignChangesAfterStart": true,
-      "noReturnsForPreference": true,
-      "disclaimer": "Trabajamos con referencias generales; no se garantizan réplicas exactas."
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
     },
     "images": [
-      { "src": "/products/1.png", "alt": "Muñeco amigurumi personalizado", "isCover": true },
-      { "src": "/products/2.png", "alt": "Muñeco amigurumi personalizado", "isCover": false },
-      { "src": "/products/3.png", "alt": "Muñeco amigurumi personalizado", "isCover": false }
+      {
+        "src": "/products/instagram/De6EsCetPpc-1.webp",
+        "alt": "Llaveros Sanrio personalizados — foto 1",
+        "isCover": true
+      }
     ],
-    "contact": { "whatsappMessage": "Hola Arrova Store! Me interesa un Muñeco amigurumi personalizado. ¿Qué opciones manejan, tiempo de entrega y precio según el diseño?" }
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Llaveros Sanrio personalizados. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
   },
   {
-    "id": 2,
-    "slug": "mantita-apego-osito-tejida",
-    "name": "Mantita de apego tejida (osito)",
-    "subtitle": "Suave, ideal para regalo",
-    "description": "Mantita de apego hecha a mano con cabecita de osito. Perfecta para bebé o para regalar. Se puede variar colores según disponibilidad.",
+    "id": 1002,
+    "slug": "osita-novia",
+    "name": "Osita novia",
+    "description": "Osita amigurumi vestida de novia, con velo y ramo. Un detalle personalizable para una ocasión especial.",
     "categoryId": 1,
-    "tagIds": [1, 3, 4, 7, 10],
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
     "featured": true,
     "available": true,
-    "price": { "type": "range", "currency": "PEN", "min": 110, "max": 170, "note": "Varía según tamaño y combinación de colores." },
-    "payment": { "depositPercent": 50, "balanceOnDelivery": true },
-    "fulfillment": {
-      "productionTime": { "minDays": 4, "maxDays": 8 },
-      "deliveryArea": "Lima Metropolitana",
-      "deliveryMethods": ["punto_entrega", "delivery_coord"]
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
     },
-    "policies": {
-      "noCancellationsAfterStart": true,
-      "noDesignChangesAfterStart": true,
-      "noReturnsForPreference": true,
-      "disclaimer": "Al ser artesanal, puede haber ligeras variaciones respecto a la foto."
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
     },
     "images": [
-      { "src": "/products/2.png", "alt": "Mantita de apego tejida con osito", "isCover": true }
+      {
+        "src": "/products/instagram/DesVZH1FizP-1.webp",
+        "alt": "Osita novia — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/DesVZH1FizP-2.webp",
+        "alt": "Osita novia — foto 2",
+        "isCover": false
+      }
     ],
-    "contact": { "whatsappMessage": "Hola Arrova Store! Me interesa la Mantita de apego (osito). ¿Qué colores hay y cuál sería el tiempo de entrega?" }
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Osita novia. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
   },
   {
-    "id": 3,
-    "slug": "mantita-apego-conejita-tejida",
-    "name": "Mantita de apego tejida (conejita)",
-    "subtitle": "Detalle tierno para bebé",
-    "description": "Mantita de apego tejida a mano con conejita y lazo. Ideal para baby shower o recién nacidos. Colores sujetos a disponibilidad.",
+    "id": 1003,
+    "slug": "duende-de-clash-royale",
+    "name": "Duende de Clash Royale",
+    "description": "Duende de Clash Royale tejido a crochet.",
     "categoryId": 1,
-    "tagIds": [1, 3, 4, 7, 10],
-    "featured": false,
-    "available": true,
-    "price": { "type": "range", "currency": "PEN", "min": 110, "max": 170, "note": "Varía según tamaño y colores." },
-    "payment": { "depositPercent": 50, "balanceOnDelivery": true },
-    "fulfillment": {
-      "productionTime": { "minDays": 4, "maxDays": 8 },
-      "deliveryArea": "Lima Metropolitana",
-      "deliveryMethods": ["punto_entrega", "delivery_coord"]
-    },
-    "policies": {
-      "noCancellationsAfterStart": true,
-      "noDesignChangesAfterStart": true,
-      "noReturnsForPreference": true,
-      "disclaimer": "Trabajo artesanal hecho a pedido; no aplica devolución por gusto personal."
-    },
-    "images": [
-      { "src": "/products/3.png", "alt": "Mantita de apego tejida con conejita", "isCover": true }
+    "tagIds": [
+      3,
+      4,
+      10
     ],
-    "contact": { "whatsappMessage": "Hola Arrova Store! Me interesa la Mantita de apego (conejita). ¿Qué colores y tiempo de producción manejan?" }
-  },
-  {
-    "id": 4,
-    "slug": "llavero-amigurumi-monstruo",
-    "name": "Llavero amigurumi (monstruito)",
-    "subtitle": "Un detalle divertido para regalar",
-    "description": "Llavero tejido a mano tipo amigurumi. Ideal para mochila, llaves o regalo. Se puede variar colores según disponibilidad.",
-    "categoryId": 1,
-    "tagIds": [1, 3, 4, 8, 10],
-    "featured": false,
-    "available": true,
-    "price": { "type": "range", "currency": "PEN", "min": 25, "max": 45, "note": "Varía según tamaño y detalles." },
-    "payment": { "depositPercent": 50, "balanceOnDelivery": true },
-    "fulfillment": {
-      "productionTime": { "minDays": 2, "maxDays": 5 },
-      "deliveryArea": "Lima Metropolitana",
-      "deliveryMethods": ["punto_entrega", "delivery_coord"]
-    },
-    "policies": {
-      "noCancellationsAfterStart": true,
-      "noDesignChangesAfterStart": true,
-      "noReturnsForPreference": true,
-      "disclaimer": "Basado en referencia. No se hacen réplicas exactas."
-    },
-    "images": [
-      { "src": "/products/4.png", "alt": "Llavero amigurumi tipo monstruito", "isCover": true }
-    ],
-    "contact": { "whatsappMessage": "Hola Arrova Store! Me interesa el Llavero amigurumi (monstruito). ¿Qué colores hay y cuánto demora?" }
-  },
-  {
-    "id": 5,
-    "slug": "chal-tejido-calado-blanco",
-    "name": "Chal tejido calado (blanco)",
-    "subtitle": "Tejido artesanal",
-    "description": "Chal tejido a mano con diseño calado. Ideal para looks casuales y para llevar en salidas. Se puede pedir en otros tonos según disponibilidad.",
-    "categoryId": 1,
-    "tagIds": [1, 3, 4, 10],
-    "featured": false,
-    "available": true,
-    "price": { "type": "range", "currency": "PEN", "min": 90, "max": 150, "note": "Varía según tamaño y tipo de hilo." },
-    "payment": { "depositPercent": 50, "balanceOnDelivery": true },
-    "fulfillment": {
-      "productionTime": { "minDays": 4, "maxDays": 9 },
-      "deliveryArea": "Lima Metropolitana",
-      "deliveryMethods": ["punto_entrega", "delivery_coord"]
-    },
-    "policies": {
-      "noCancellationsAfterStart": true,
-      "noDesignChangesAfterStart": true,
-      "noReturnsForPreference": true,
-      "disclaimer": "Hecho a pedido; puede variar ligeramente por ser tejido artesanal."
-    },
-    "images": [
-      { "src": "/products/5.png", "alt": "Chal tejido calado color blanco", "isCover": true }
-    ],
-    "contact": { "whatsappMessage": "Hola Arrova Store! Me interesa el Chal tejido calado. ¿Qué tamaños/colores manejan y cuál es el precio?" }
-  },
-  {
-    "id": 6,
-    "slug": "bolso-red-tejido-crudo",
-    "name": "Bolso red tejido (crudo)",
-    "subtitle": "Ligero y funcional",
-    "description": "Bolso tipo red tejido a mano. Ideal para salidas, playa o compras ligeras. Se puede personalizar con accesorio decorativo.",
-    "categoryId": 2,
-    "tagIds": [1, 3, 4, 10, 11],
     "featured": true,
     "available": true,
-    "price": { "type": "range", "currency": "PEN", "min": 80, "max": 140, "note": "Varía según tamaño y detalle decorativo." },
-    "payment": { "depositPercent": 50, "balanceOnDelivery": true },
-    "fulfillment": {
-      "productionTime": { "minDays": 4, "maxDays": 8 },
-      "deliveryArea": "Lima Metropolitana",
-      "deliveryMethods": ["punto_entrega", "delivery_coord"]
+    "price": {
+      "type": "fixed",
+      "currency": "PEN",
+      "amount": 25,
+      "note": "Precio publicado en Instagram. Confirma vigencia al pedir."
     },
-    "policies": {
-      "noCancellationsAfterStart": true,
-      "noDesignChangesAfterStart": true,
-      "noReturnsForPreference": true,
-      "disclaimer": "Diseño artesanal; se trabaja con referencia y disponibilidad de materiales."
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
     },
     "images": [
-      { "src": "/products/6.png", "alt": "Bolso tipo red tejido color crudo", "isCover": true }
+      {
+        "src": "/products/instagram/DecJbmNOM9b-1.webp",
+        "alt": "Duende de Clash Royale — foto 1",
+        "isCover": true
+      }
     ],
-    "contact": { "whatsappMessage": "Hola Arrova Store! Me interesa el Bolso red tejido. ¿Qué tamaños y colores hay disponibles?" }
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Duende de Clash Royale. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
   },
   {
-    "id": 7,
-    "slug": "muneco-amigurumi-estilo-urbano",
-    "name": "Muñeco amigurumi estilo urbano",
-    "subtitle": "Personalizable según referencia",
-    "description": "Muñeco tejido a mano con estilo urbano (ropa y accesorios). Se puede adaptar colores/detalles según referencia. Ideal para regalo.",
+    "id": 1004,
+    "slug": "calcifer-tejido",
+    "name": "Calcifer tejido",
+    "description": "Un tierno Calcifer tejido a mano para acompañarte.",
     "categoryId": 1,
-    "tagIds": [1, 3, 4, 9, 10],
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
     "featured": false,
     "available": true,
-    "price": { "type": "range", "currency": "PEN", "min": 140, "max": 260, "note": "Varía según tamaño y accesorios." },
-    "payment": { "depositPercent": 50, "balanceOnDelivery": true },
-    "fulfillment": {
-      "productionTime": { "minDays": 6, "maxDays": 12 },
-      "deliveryArea": "Lima Metropolitana",
-      "deliveryMethods": ["punto_entrega", "delivery_coord"]
+    "price": {
+      "type": "fixed",
+      "currency": "PEN",
+      "amount": 12,
+      "note": "Precio publicado en Instagram. Confirma vigencia al pedir."
     },
-    "policies": {
-      "noCancellationsAfterStart": true,
-      "noDesignChangesAfterStart": true,
-      "noReturnsForPreference": true,
-      "disclaimer": "No se garantizan réplicas exactas; se trabaja con referencia general."
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
     },
     "images": [
-      { "src": "/products/7.png", "alt": "Muñeco amigurumi estilo urbano", "isCover": true }
+      {
+        "src": "/products/instagram/Deau53tMTWX-1.webp",
+        "alt": "Calcifer tejido — foto 1",
+        "isCover": true
+      }
     ],
-    "contact": { "whatsappMessage": "Hola Arrova Store! Me interesa el Muñeco amigurumi estilo urbano. ¿Qué necesito enviar como referencia y cuál es el rango de precio?" }
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Calcifer tejido. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
   },
   {
-    "id": 8,
-    "slug": "bolso-de-mano-tejido-con-asas",
-    "name": "Bolso de mano tejido con asas",
-    "subtitle": "Elegante y práctico",
-    "description": "Bolso de mano tejido con asas rígidas. Ideal para uso diario. Producto sujeto a stock o se puede replicar por pedido según materiales.",
-    "categoryId": 2,
-    "tagIds": [2, 3, 4, 6, 11],
+    "id": 1005,
+    "slug": "patito-tejido",
+    "name": "Patito tejido",
+    "description": "Patito tejido a mano para sorprender con un detalle especial.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
     "featured": false,
     "available": true,
-    "price": { "type": "fixed", "currency": "PEN", "amount": 89 },
-    "fulfillment": {
-      "productionTime": { "minDays": 0, "maxDays": 0 },
-      "deliveryArea": "Lima Metropolitana",
-      "deliveryMethods": ["punto_entrega", "delivery_coord"],
-      "deliveryNotes": "Confirma disponibilidad por WhatsApp."
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
     },
-    "policies": {
-      "noCancellationsAfterStart": false,
-      "noDesignChangesAfterStart": false,
-      "noReturnsForPreference": true,
-      "disclaimer": "Producto en stock: se entrega tal como se muestra."
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
     },
     "images": [
-      { "src": "/products/8.png", "alt": "Bolso de mano tejido con asas", "isCover": true }
+      {
+        "src": "/products/instagram/DeXRPNUlqOK-1.webp",
+        "alt": "Patito tejido — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/DeXRPNUlqOK-2.webp",
+        "alt": "Patito tejido — foto 2",
+        "isCover": false
+      }
     ],
-    "contact": { "whatsappMessage": "Hola Arrova Store! ¿Sigue disponible el Bolso de mano tejido con asas? Quisiera coordinar entrega." }
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Patito tejido. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
   },
   {
-    "id": 9,
-    "slug": "monedero-tejido-trenzado",
-    "name": "Monedero tejido trenzado",
-    "subtitle": "Compacto y resistente",
-    "description": "Monedero tejido con acabado trenzado. Ideal para llevar monedas o cosas pequeñas. Producto en stock con disponibilidad limitada.",
+    "id": 1006,
+    "slug": "juan-carlos-bodoque",
+    "name": "Juan Carlos Bodoque",
+    "description": "Versión tejida y suave de Juan Carlos Bodoque de 31 Minutos. Ideal para regalar.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "fixed",
+      "currency": "PEN",
+      "amount": 26,
+      "note": "Precio publicado en Instagram. Confirma vigencia al pedir."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DeNOW_zlnbR-1.webp",
+        "alt": "Juan Carlos Bodoque — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/DeNOW_zlnbR-2.webp",
+        "alt": "Juan Carlos Bodoque — foto 2",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Juan Carlos Bodoque. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1007,
+    "slug": "pikachu-tejido",
+    "name": "Pikachu tejido",
+    "description": "Pikachu tejido a mano, puntada por puntada. Para regalar o sumar a tu colección Pokémon.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/Dd4O-YqFnwe-1.webp",
+        "alt": "Pikachu tejido — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/Dd4O-YqFnwe-2.webp",
+        "alt": "Pikachu tejido — foto 2",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Pikachu tejido. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1008,
+    "slug": "llaveros-rayo-y-sally",
+    "name": "Llaveros Rayo y Sally",
+    "description": "Pareja de llaveros tejidos de Rayo y Sally, inspirados en Cars.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10,
+      8
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/Dd1xyIeFrxa-1.webp",
+        "alt": "Llaveros Rayo y Sally — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/Dd1xyIeFrxa-2.webp",
+        "alt": "Llaveros Rayo y Sally — foto 2",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Llaveros Rayo y Sally. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1009,
+    "slug": "patricio-tejido",
+    "name": "Patricio tejido",
+    "description": "Patricio tejido a crochet, inspirado en Bob Esponja.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "fixed",
+      "currency": "PEN",
+      "amount": 15,
+      "note": "Precio publicado en Instagram. Confirma vigencia al pedir."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DdzlNBCFslu-1.webp",
+        "alt": "Patricio tejido — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/DdzlNBCFslu-2.webp",
+        "alt": "Patricio tejido — foto 2",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Patricio tejido. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1010,
+    "slug": "snoopy-con-girasol",
+    "name": "Snoopy con girasol",
+    "description": "Snoopy tejido con un girasol amarillo para regalar un detalle de primavera.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DdkGOFWFgs4-1.webp",
+        "alt": "Snoopy con girasol — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/DdkGOFWFgs4-2.webp",
+        "alt": "Snoopy con girasol — foto 2",
+        "isCover": false
+      },
+      {
+        "src": "/products/instagram/DdkGOFWFgs4-3.webp",
+        "alt": "Snoopy con girasol — foto 3",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Snoopy con girasol. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1011,
+    "slug": "shrek-con-flores-amarillas",
+    "name": "Shrek con flores amarillas",
+    "description": "Shrek tejido a mano con un detalle de flores amarillas.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DdPJVmJOX6I-1.webp",
+        "alt": "Shrek con flores amarillas — foto 1",
+        "isCover": true
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Shrek con flores amarillas. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1012,
+    "slug": "charmander-personalizado",
+    "name": "Charmander personalizado",
+    "description": "Charmander tejido a mano. Personaliza tus personajes favoritos con Arrova.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10,
+      1
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/Dc_oWFjlkAX-1.webp",
+        "alt": "Charmander personalizado — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/Dc_oWFjlkAX-2.webp",
+        "alt": "Charmander personalizado — foto 2",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Charmander personalizado. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1013,
+    "slug": "perrito-personalizado",
+    "name": "Perrito personalizado",
+    "description": "Una versión tejida de tu mascota para que siempre te acompañe. Cotización según la referencia.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10,
+      1
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/Dcys5zfFgJT-1.webp",
+        "alt": "Perrito personalizado — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/Dcys5zfFgJT-2.webp",
+        "alt": "Perrito personalizado — foto 2",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Perrito personalizado. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1014,
+    "slug": "funda-de-llave-monstruo",
+    "name": "Funda de llave monstruo",
+    "description": "Funda tejida de monstruo para la llave de tu auto.",
     "categoryId": 4,
-    "tagIds": [2, 3, 4, 6],
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
     "featured": false,
     "available": true,
-    "price": { "type": "fixed", "currency": "PEN", "amount": 35 },
-    "fulfillment": {
-      "productionTime": { "minDays": 0, "maxDays": 0 },
-      "deliveryArea": "Lima Metropolitana",
-      "deliveryMethods": ["punto_entrega", "delivery_coord"]
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
     },
-    "policies": {
-      "noCancellationsAfterStart": false,
-      "noDesignChangesAfterStart": false,
-      "noReturnsForPreference": true,
-      "disclaimer": "Producto en stock: se entrega tal como se muestra."
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
     },
     "images": [
-      { "src": "/products/9.png", "alt": "Monedero tejido trenzado", "isCover": true }
+      {
+        "src": "/products/instagram/DcwptlQhqm7-1.webp",
+        "alt": "Funda de llave monstruo — foto 1",
+        "isCover": true
+      }
     ],
-    "contact": { "whatsappMessage": "Hola Arrova Store! Me interesa el Monedero tejido trenzado. ¿Está disponible?" }
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Funda de llave monstruo. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
   },
   {
-    "id": 10,
-    "slug": "case-airpods-silicona-lila",
-    "name": "Case para AirPods (silicona lila)",
-    "subtitle": "Protección simple y bonita",
-    "description": "Case de silicona para AirPods en color lila. Producto en stock. Confirma modelo compatible por WhatsApp antes de comprar.",
-    "categoryId": 3,
-    "tagIds": [2, 6, 13],
+    "id": 1015,
+    "slug": "pollitos-en-pareja",
+    "name": "Pollitos en pareja",
+    "description": "Pollitos tejidos para combinar con tu persona favorita.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
     "featured": false,
     "available": true,
-    "price": { "type": "fixed", "currency": "PEN", "amount": 20 },
-    "fulfillment": {
-      "productionTime": { "minDays": 0, "maxDays": 0 },
-      "deliveryArea": "Lima Metropolitana",
-      "deliveryMethods": ["punto_entrega", "delivery_coord"]
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
     },
-    "policies": {
-      "noCancellationsAfterStart": false,
-      "noDesignChangesAfterStart": false,
-      "noReturnsForPreference": true,
-      "disclaimer": "Producto en stock. Verifica compatibilidad (modelo) antes de coordinar."
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
     },
     "images": [
-      { "src": "/products/10.png", "alt": "Case lila para AirPods", "isCover": true }
+      {
+        "src": "/products/instagram/DcuAE1vFoxr-1.webp",
+        "alt": "Pollitos en pareja — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/DcuAE1vFoxr-2.webp",
+        "alt": "Pollitos en pareja — foto 2",
+        "isCover": false
+      }
     ],
-    "contact": { "whatsappMessage": "Hola Arrova Store! Me interesa el Case para AirPods (lila). ¿Para qué modelos está disponible?" }
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Pollitos en pareja. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
   },
   {
-    "id": 11,
-    "slug": "case-apple-watch",
-    "name": "Correa para Apple Watch",
-    "subtitle": "S/ 20 — cualquier modelo (según disponibilidad)",
-    "description": "Case protector para Apple Watch. Precio referencial por unidad. Confirma tamaño del reloj y disponibilidad por WhatsApp.",
-    "categoryId": 3,
-    "tagIds": [2, 6, 12],
+    "id": 1016,
+    "slug": "mantita-de-apego-conejita-lila",
+    "name": "Mantita de apego conejita lila",
+    "description": "Mantita de apego tejida con conejita, en tonos lilas.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/Dccsx5mFlcz-1.webp",
+        "alt": "Mantita de apego conejita lila — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/Dccsx5mFlcz-2.webp",
+        "alt": "Mantita de apego conejita lila — foto 2",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Mantita de apego conejita lila. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1017,
+    "slug": "chopper-tejido",
+    "name": "Chopper tejido",
+    "description": "Chopper de One Piece tejido a mano. Consulta la disponibilidad actual.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "fixed",
+      "currency": "PEN",
+      "amount": 18,
+      "note": "Precio publicado en Instagram. Confirma vigencia al pedir."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DcCOiv-TjRF-1.webp",
+        "alt": "Chopper tejido — foto 1",
+        "isCover": true
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Chopper tejido. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1018,
+    "slug": "flor-de-rapunzel-con-luces",
+    "name": "Flor de Rapunzel con luces",
+    "description": "Flor de Rapunzel con luces para acompañarte también de noche.",
+    "categoryId": 6,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
     "featured": true,
     "available": true,
-    "price": { "type": "fixed", "currency": "PEN", "amount": 20 },
-    "fulfillment": {
-      "productionTime": { "minDays": 0, "maxDays": 0 },
-      "deliveryArea": "Lima Metropolitana",
-      "deliveryMethods": ["punto_entrega", "delivery_coord"]
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
     },
-    "policies": {
-      "noCancellationsAfterStart": false,
-      "noDesignChangesAfterStart": false,
-      "noReturnsForPreference": true,
-      "disclaimer": "Producto en stock. Confirma modelo/tamaño antes de coordinar."
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
     },
     "images": [
-      { "src": "/products/11.png", "alt": "Case para Apple Watch", "isCover": true }
+      {
+        "src": "/products/instagram/Db3mem1popA-1.webp",
+        "alt": "Flor de Rapunzel con luces — foto 1",
+        "isCover": true
+      }
     ],
-    "contact": { "whatsappMessage": "Hola Arrova Store! Me interesan los cases para Apple Watch. ¿Qué tallas/modelos tienen disponibles?" }
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Flor de Rapunzel con luces. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
   },
   {
-    "id": 12,
-    "slug": "pulsera-piedra-para-el",
-    "name": "Pulsera de piedra (para él)",
-    "subtitle": "Accesorio clásico",
-    "description": "Pulsera de piedra en tono oscuro. Producto en stock. Ideal como regalo o accesorio diario.",
+    "id": 1019,
+    "slug": "mantita-de-apego-osito",
+    "name": "Mantita de apego osito",
+    "description": "Mantita de apego tejida con cabecita de osito.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DbjV8w5po7a-1.webp",
+        "alt": "Mantita de apego osito — foto 1",
+        "isCover": true
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Mantita de apego osito. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1020,
+    "slug": "bandana-multiuso",
+    "name": "Bandana multiuso",
+    "description": "Accesorio tejido para usar como bandana, top o salida de baño.",
     "categoryId": 4,
-    "tagIds": [2, 6, 14, 4],
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
     "featured": false,
     "available": true,
-    "price": { "type": "fixed", "currency": "PEN", "amount": 15 },
-    "fulfillment": {
-      "productionTime": { "minDays": 0, "maxDays": 0 },
-      "deliveryArea": "Lima Metropolitana",
-      "deliveryMethods": ["punto_entrega", "delivery_coord"]
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
     },
-    "policies": {
-      "noCancellationsAfterStart": false,
-      "noDesignChangesAfterStart": false,
-      "noReturnsForPreference": true,
-      "disclaimer": "Producto en stock: se entrega tal como se muestra."
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
     },
     "images": [
-      { "src": "/products/12.png", "alt": "Pulsera de piedra para él", "isCover": true }
+      {
+        "src": "/products/instagram/DbeM23Gltj6-1.webp",
+        "alt": "Bandana multiuso — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/DbeM23Gltj6-2.webp",
+        "alt": "Bandana multiuso — foto 2",
+        "isCover": false
+      }
     ],
-    "contact": { "whatsappMessage": "Hola Arrova Store! Me interesa la Pulsera de piedra (para él). ¿Está disponible?" }
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Bandana multiuso. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
   },
   {
-    "id": 13,
-    "slug": "set-brochas-maquillaje",
-    "name": "Set de brochas de maquillaje",
-    "subtitle": "S/ 15 — set completo",
-    "description": "Set de brochas para maquillaje. Producto en stock con disponibilidad limitada.",
-    "categoryId": 5,
-    "tagIds": [2, 6, 15],
+    "id": 1021,
+    "slug": "spider-man-tejido",
+    "name": "Spider-Man tejido",
+    "description": "Spider-Man tejido completamente a mano, para regalar o sumar a tu colección.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
     "featured": false,
     "available": true,
-    "price": { "type": "fixed", "currency": "PEN", "amount": 15 },
-    "fulfillment": {
-      "productionTime": { "minDays": 0, "maxDays": 0 },
-      "deliveryArea": "Lima Metropolitana",
-      "deliveryMethods": ["punto_entrega", "delivery_coord"]
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
     },
-    "policies": {
-      "noCancellationsAfterStart": false,
-      "noDesignChangesAfterStart": false,
-      "noReturnsForPreference": true,
-      "disclaimer": "Producto en stock: se entrega tal como se muestra."
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
     },
     "images": [
-      { "src": "/products/13.png", "alt": "Set de brochas de maquillaje", "isCover": true }
+      {
+        "src": "/products/instagram/Da_YpsSFvxc-1.webp",
+        "alt": "Spider-Man tejido — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/Da_YpsSFvxc-2.webp",
+        "alt": "Spider-Man tejido — foto 2",
+        "isCover": false
+      },
+      {
+        "src": "/products/instagram/Da_YpsSFvxc-3.webp",
+        "alt": "Spider-Man tejido — foto 3",
+        "isCover": false
+      },
+      {
+        "src": "/products/instagram/Da_YpsSFvxc-4.webp",
+        "alt": "Spider-Man tejido — foto 4",
+        "isCover": false
+      }
     ],
-    "contact": { "whatsappMessage": "Hola Arrova Store! Me interesa el Set de brochas de maquillaje. ¿Sigue disponible?" }
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Spider-Man tejido. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1022,
+    "slug": "conejito-bunny",
+    "name": "Conejito Bunny",
+    "description": "Conejito tejido a mano para completar un regalo especial.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/Da0WSS6llOW-1.webp",
+        "alt": "Conejito Bunny — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/Da0WSS6llOW-2.webp",
+        "alt": "Conejito Bunny — foto 2",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Conejito Bunny. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1023,
+    "slug": "mascotitas-personalizadas",
+    "name": "Mascotitas personalizadas",
+    "description": "Mascotitas tejidas según tu referencia. Consulta la cotización de tu diseño.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10,
+      1
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/Dax0OgJFoxn-1.webp",
+        "alt": "Mascotitas personalizadas — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/Dax0OgJFoxn-2.webp",
+        "alt": "Mascotitas personalizadas — foto 2",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Mascotitas personalizadas. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1024,
+    "slug": "messi-amigurumi",
+    "name": "Messi amigurumi",
+    "description": "Amigurumi de Messi con los colores de Argentina, tejido a mano para amantes del fútbol.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "fixed",
+      "currency": "PEN",
+      "amount": 27,
+      "note": "Precio publicado en Instagram. Confirma vigencia al pedir."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DavjukXFrKS-1.webp",
+        "alt": "Messi amigurumi — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/DavjukXFrKS-2.webp",
+        "alt": "Messi amigurumi — foto 2",
+        "isCover": false
+      },
+      {
+        "src": "/products/instagram/DavjukXFrKS-3.webp",
+        "alt": "Messi amigurumi — foto 3",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Messi amigurumi. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1025,
+    "slug": "luffy-tejido",
+    "name": "Luffy tejido",
+    "description": "Luffy de One Piece tejido a mano. Puedes consultar por una base de madera adicional.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DaopckDjKgW-1.webp",
+        "alt": "Luffy tejido — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/DaopckDjKgW-2.webp",
+        "alt": "Luffy tejido — foto 2",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Luffy tejido. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1026,
+    "slug": "jessie-de-toy-story",
+    "name": "Jessie de Toy Story",
+    "description": "Jessie tejida a mano de la colección Toy Story.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "fixed",
+      "currency": "PEN",
+      "amount": 15,
+      "note": "Precio publicado en Instagram. Confirma vigencia al pedir."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/Dad5rFEFgYj-1.webp",
+        "alt": "Jessie de Toy Story — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/Dad5rFEFgYj-2.webp",
+        "alt": "Jessie de Toy Story — foto 2",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Jessie de Toy Story. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1027,
+    "slug": "llavero-woody",
+    "name": "Llavero Woody",
+    "description": "Llavero tejido de Woody de la colección Toy Story.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10,
+      8
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "fixed",
+      "currency": "PEN",
+      "amount": 15,
+      "note": "Precio publicado en Instagram. Confirma vigencia al pedir."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DabUKK1lqVD-1.webp",
+        "alt": "Llavero Woody — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/DabUKK1lqVD-2.webp",
+        "alt": "Llavero Woody — foto 2",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Llavero Woody. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1028,
+    "slug": "pug-mediano-personalizado",
+    "name": "Pug mediano personalizado",
+    "description": "Pug mediano tejido a mano y personalizado según tu mascota.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10,
+      1
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DaKCDAUloa_-1.webp",
+        "alt": "Pug mediano personalizado — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/DaKCDAUloa_-2.webp",
+        "alt": "Pug mediano personalizado — foto 2",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Pug mediano personalizado. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1029,
+    "slug": "pug-pequeno-personalizado",
+    "name": "Pug pequeño personalizado",
+    "description": "Pequeño pug tejido a mano para recordar a tu mejor amigo.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10,
+      1
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DZ9Muz4FoX1-1.webp",
+        "alt": "Pug pequeño personalizado — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/DZ9Muz4FoX1-2.webp",
+        "alt": "Pug pequeño personalizado — foto 2",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Pug pequeño personalizado. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1030,
+    "slug": "mago-tejido-con-lechuza",
+    "name": "Mago tejido con lechuza",
+    "description": "Muñeco personalizado de mago con lechuza y accesorios tejidos.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DZ6e9ZEzcuc-1.webp",
+        "alt": "Mago tejido con lechuza — foto 1",
+        "isCover": true
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Mago tejido con lechuza. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1031,
+    "slug": "michael-jackson-tejido",
+    "name": "Michael Jackson tejido",
+    "description": "Versión tejida a mano del rey del pop.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DZyEkTjFpwp-1.webp",
+        "alt": "Michael Jackson tejido — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/DZyEkTjFpwp-2.webp",
+        "alt": "Michael Jackson tejido — foto 2",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Michael Jackson tejido. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1032,
+    "slug": "minion-tejido",
+    "name": "Minion tejido",
+    "description": "Minion tejido a crochet en la versión publicada por Arrova.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DZlxlTjDLr_-1.webp",
+        "alt": "Minion tejido — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/DZlxlTjDLr_-2.webp",
+        "alt": "Minion tejido — foto 2",
+        "isCover": false
+      },
+      {
+        "src": "/products/instagram/DZlxlTjDLr_-3.webp",
+        "alt": "Minion tejido — foto 3",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Minion tejido. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1033,
+    "slug": "osito-con-corazon",
+    "name": "Osito con corazón",
+    "description": "Osito tejido sosteniendo un corazón rojo para regalar a alguien especial.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DZTy9F7jDR1-1.webp",
+        "alt": "Osito con corazón — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/DZTy9F7jDR1-2.webp",
+        "alt": "Osito con corazón — foto 2",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Osito con corazón. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1034,
+    "slug": "llavero-yoshi",
+    "name": "Llavero Yoshi",
+    "description": "Yoshi de Mario Bros tejido en versión llavero.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10,
+      8
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DZOYRN9MEbS-1.webp",
+        "alt": "Llavero Yoshi — foto 1",
+        "isCover": true
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Llavero Yoshi. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1035,
+    "slug": "mascota-tejida-a-pedido",
+    "name": "Mascota tejida a pedido",
+    "description": "Personalizamos mascotitas para regalar a amantes de los perros y gatos.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DYY0EVBSIUY-1.webp",
+        "alt": "Mascota tejida a pedido — foto 1",
+        "isCover": true
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Mascota tejida a pedido. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1036,
+    "slug": "leoncito-personalizado",
+    "name": "Leoncito personalizado",
+    "description": "Leoncito tejido a mano y personalizado a pedido.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10,
+      1
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DXkyiZtDNSO-1.webp",
+        "alt": "Leoncito personalizado — foto 1",
+        "isCover": true
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Leoncito personalizado. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1037,
+    "slug": "vaquita-tejida",
+    "name": "Vaquita tejida",
+    "description": "Vaquita personalizada tejida a crochet.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DWunp3YFWU6-1.webp",
+        "alt": "Vaquita tejida — foto 1",
+        "isCover": true
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Vaquita tejida. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1038,
+    "slug": "persona-y-mascota-personalizadas",
+    "name": "Persona y mascota personalizadas",
+    "description": "Personaliza a tu persona favorita con un detalle tejido a mano.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10,
+      1
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DWM3L8RCanT-1.webp",
+        "alt": "Persona y mascota personalizadas — foto 1",
+        "isCover": true
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Persona y mascota personalizadas. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1039,
+    "slug": "neceser-shelly",
+    "name": "Neceser Shelly",
+    "description": "Neceser Shelly tejido a crochet, inspirado en el verano.",
+    "categoryId": 2,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DVl1evnEUIs-1.webp",
+        "alt": "Neceser Shelly — foto 1",
+        "isCover": true
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Neceser Shelly. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1040,
+    "slug": "maceta-corazon-floral",
+    "name": "Maceta corazón floral",
+    "description": "Maceta decorativa con corazón floral tejido.",
+    "categoryId": 6,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "fixed",
+      "currency": "PEN",
+      "amount": 28,
+      "note": "Precio publicado en Instagram. Confirma vigencia al pedir."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DVjG_HRDsVq-1.webp",
+        "alt": "Maceta corazón floral — foto 1",
+        "isCover": true
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Maceta corazón floral. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1041,
+    "slug": "chimuelo-y-furia-luminosa",
+    "name": "Chimuelo y Furia Luminosa",
+    "description": "Pareja tejida de Chimuelo y Furia Luminosa. Precio publicado por los dos.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "fixed",
+      "currency": "PEN",
+      "amount": 22,
+      "note": "Precio publicado por la pareja (2 unidades). Confirma vigencia al pedir."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DVeJ2NlERRK-1.webp",
+        "alt": "Chimuelo y Furia Luminosa — foto 1",
+        "isCover": true
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Chimuelo y Furia Luminosa. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1042,
+    "slug": "top-tejido-con-copas",
+    "name": "Top tejido con copas",
+    "description": "Top tejido a crochet con copas incluidas.",
+    "categoryId": 4,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DVbiEJJkV2F-1.webp",
+        "alt": "Top tejido con copas — foto 1",
+        "isCover": true
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Top tejido con copas. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1043,
+    "slug": "duende-de-clash-royale-plushie",
+    "name": "Duende de Clash Royale plushie",
+    "description": "Plushie tejido del duende de Clash Royale.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "fixed",
+      "currency": "PEN",
+      "amount": 23,
+      "note": "Precio publicado en Instagram. Confirma vigencia al pedir."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DVZBLLlEc1d-1.webp",
+        "alt": "Duende de Clash Royale plushie — foto 1",
+        "isCover": true
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Duende de Clash Royale plushie. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1044,
+    "slug": "ingeniero-personalizado",
+    "name": "Ingeniero personalizado",
+    "description": "Ingeniero tejido a mano. Consulta por los detalles de tu pedido personalizado.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10,
+      1
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DVPNS0fkTLM-1.webp",
+        "alt": "Ingeniero personalizado — foto 1",
+        "isCover": true
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Ingeniero personalizado. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1045,
+    "slug": "bandana-para-mascota",
+    "name": "Bandana para mascota",
+    "description": "Bandana tejida para los engreídos de la casa.",
+    "categoryId": 4,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DVHFUqTkR8h-1.webp",
+        "alt": "Bandana para mascota — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/DVHFUqTkR8h-2.webp",
+        "alt": "Bandana para mascota — foto 2",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Bandana para mascota. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1046,
+    "slug": "bandana-floral",
+    "name": "Bandana floral",
+    "description": "Bandana floral tejida en 100% algodón, según la publicación.",
+    "categoryId": 4,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DVFXQUKDGe--1.webp",
+        "alt": "Bandana floral — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/DVFXQUKDGe--2.webp",
+        "alt": "Bandana floral — foto 2",
+        "isCover": false
+      },
+      {
+        "src": "/products/instagram/DTp87E0joor-1.webp",
+        "alt": "Bandana de verano — foto 1",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Bandana floral. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1047,
+    "slug": "llavero-un-verano-sin-ti",
+    "name": "Llavero Un verano sin ti",
+    "description": "Llavero tejido inspirado en Un verano sin ti. Precio publicado: una unidad S/ 12; dos unidades S/ 20.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10,
+      8
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "fixed",
+      "currency": "PEN",
+      "amount": 12,
+      "note": "Una unidad S/ 12; dos unidades S/ 20. Confirma vigencia al pedir."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DU9CvDmkiUD-1.webp",
+        "alt": "Llavero Un verano sin ti — foto 1",
+        "isCover": true
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Llavero Un verano sin ti. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1048,
+    "slug": "arreglo-de-orquideas",
+    "name": "Arreglo de orquídeas",
+    "description": "Arreglo de orquídeas tejidas a crochet. Consulta la disponibilidad actual.",
+    "categoryId": 6,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DUjjDchkawl-1.webp",
+        "alt": "Arreglo de orquídeas — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/DUjjDchkawl-2.webp",
+        "alt": "Arreglo de orquídeas — foto 2",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Arreglo de orquídeas. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1049,
+    "slug": "mantitas-de-apego-personalizadas",
+    "name": "Mantitas de apego personalizadas",
+    "description": "Mantitas de apego tejidas a mano y personalizadas.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10,
+      1
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DT6zcKQDFeV-1.webp",
+        "alt": "Mantitas de apego personalizadas — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/DT6zcKQDFeV-2.webp",
+        "alt": "Mantitas de apego personalizadas — foto 2",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Mantitas de apego personalizadas. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1050,
+    "slug": "mantita-de-apego-de-algodon",
+    "name": "Mantita de apego de algodón",
+    "description": "Mantita de apego tejida. La publicación indica 100% algodón hipoalergénico.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DTyiTABESPF-1.webp",
+        "alt": "Mantita de apego de algodón — foto 1",
+        "isCover": true
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Mantita de apego de algodón. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1051,
+    "slug": "llavero-domo",
+    "name": "Llavero Domo",
+    "description": "Domo tejido en versión llavero para llevarlo contigo.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10,
+      8
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DTtDJVRkZ1W-1.webp",
+        "alt": "Llavero Domo — foto 1",
+        "isCover": true
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Llavero Domo. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1053,
+    "slug": "bolso-de-temporada",
+    "name": "Bolso de temporada",
+    "description": "Bolso de la colección de verano de Arrova.",
+    "categoryId": 2,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DToMrHDkhYZ-1.webp",
+        "alt": "Bolso de temporada — foto 1",
+        "isCover": true
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Bolso de temporada. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1054,
+    "slug": "ferxxo-personalizado",
+    "name": "Ferxxo personalizado",
+    "description": "Amigurumi personalizado de Ferxxo, tejido a mano.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10,
+      1
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DTlUewfkUxx-1.webp",
+        "alt": "Ferxxo personalizado — foto 1",
+        "isCover": true
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Ferxxo personalizado. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1055,
+    "slug": "bolsos-de-playa",
+    "name": "Bolsos de playa",
+    "description": "Bolsos para llevar tus esenciales en la arena. Consulta modelos y colores.",
+    "categoryId": 2,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DTgdErfEs22-1.webp",
+        "alt": "Bolsos de playa — foto 1",
+        "isCover": true
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Bolsos de playa. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1056,
+    "slug": "mini-cosmetiquera-camel",
+    "name": "Mini cosmetiquera Camel",
+    "description": "Mini cosmetiquera Camel para guardar tus esenciales.",
+    "categoryId": 2,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DTMaMnRjNGQ-1.webp",
+        "alt": "Mini cosmetiquera Camel — foto 1",
+        "isCover": true
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Mini cosmetiquera Camel. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1057,
+    "slug": "bolso-playero-tejido",
+    "name": "Bolso playero tejido",
+    "description": "Bolso playero tejido a crochet para las tardes de verano.",
+    "categoryId": 2,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DTDtDcrERmt-1.webp",
+        "alt": "Bolso playero tejido — foto 1",
+        "isCover": true
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Bolso playero tejido. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1058,
+    "slug": "cosmetiquera-orchid",
+    "name": "Cosmetiquera Orchid",
+    "description": "Cosmetiquera tejida con colores inspirados en las orquídeas. Medidas publicadas: 20 × 16 cm.",
+    "categoryId": 2,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": true,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DS-4aziErXV-1.webp",
+        "alt": "Cosmetiquera Orchid — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/DS-4aziErXV-2.webp",
+        "alt": "Cosmetiquera Orchid — foto 2",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Cosmetiquera Orchid. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1059,
+    "slug": "llaveros-penelope-y-odiseo",
+    "name": "Llaveros Penélope y Odiseo",
+    "description": "Pareja de llaveros tejidos de Penélope y Odiseo.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10,
+      8
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DS8E_bFEQ2S-1.webp",
+        "alt": "Llaveros Penélope y Odiseo — foto 1",
+        "isCover": true
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Llaveros Penélope y Odiseo. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1060,
+    "slug": "graduado-personalizado",
+    "name": "Graduado personalizado",
+    "description": "Graduado tejido en tonos azules y amarillos. Personaliza tu detalle de graduación.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10,
+      1
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DSvsf4eEeaN-1.webp",
+        "alt": "Graduado personalizado — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/DSvsf4eEeaN-2.webp",
+        "alt": "Graduado personalizado — foto 2",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Graduado personalizado. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1061,
+    "slug": "rinon-tejido",
+    "name": "Riñón tejido",
+    "description": "Un tierno riñón tejido para enseñar de una manera diferente o regalar un detalle personalizado.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DSsj7bOEUOJ-1.webp",
+        "alt": "Riñón tejido — foto 1",
+        "isCover": true
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Riñón tejido. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1062,
+    "slug": "demogorgon-tejido",
+    "name": "Demogorgon tejido",
+    "description": "Demogorgon tejido a crochet y personalizado.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DSomCF9jDep-1.webp",
+        "alt": "Demogorgon tejido — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/DSomCF9jDep-2.webp",
+        "alt": "Demogorgon tejido — foto 2",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Demogorgon tejido. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1063,
+    "slug": "marinero-personalizado",
+    "name": "Marinero personalizado",
+    "description": "Muñeco tejido con uniforme y gorra de marinero.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10,
+      1
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DSap6tdEV5Q-1.webp",
+        "alt": "Marinero personalizado — foto 1",
+        "isCover": true
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Marinero personalizado. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1064,
+    "slug": "neceser-aurora",
+    "name": "Neceser Aurora",
+    "description": "Neceser Aurora tejido a crochet para tus accesorios de maquillaje.",
+    "categoryId": 2,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DSBQuGTkYmq-1.webp",
+        "alt": "Neceser Aurora — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/DSBQuGTkYmq-2.webp",
+        "alt": "Neceser Aurora — foto 2",
+        "isCover": false
+      },
+      {
+        "src": "/products/instagram/DSBQuGTkYmq-3.webp",
+        "alt": "Neceser Aurora — foto 3",
+        "isCover": false
+      },
+      {
+        "src": "/products/instagram/DSBQuGTkYmq-4.webp",
+        "alt": "Neceser Aurora — foto 4",
+        "isCover": false
+      },
+      {
+        "src": "/products/instagram/DSBQuGTkYmq-5.webp",
+        "alt": "Neceser Aurora — foto 5",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Neceser Aurora. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1065,
+    "slug": "personalizado-con-gatitos",
+    "name": "Personalizado con gatitos",
+    "description": "Pedido tejido personalizado con gatitos.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10,
+      1
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DRxPdhwkZgt-1.webp",
+        "alt": "Personalizado con gatitos — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/DRxPdhwkZgt-2.webp",
+        "alt": "Personalizado con gatitos — foto 2",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Personalizado con gatitos. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1066,
+    "slug": "zoro-tejido",
+    "name": "Zoro tejido",
+    "description": "Zoro de One Piece tejido a mano.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DRdFqlzkvs6-1.webp",
+        "alt": "Zoro tejido — foto 1",
+        "isCover": true
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Zoro tejido. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1067,
+    "slug": "bolso-shelly",
+    "name": "Bolso Shelly",
+    "description": "Bolso Shelly. Medidas publicadas: 25 × 19 cm. Consulta los colores y disponibilidad actuales.",
+    "categoryId": 2,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": true,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DRKt6wzkTkG-1.webp",
+        "alt": "Bolso Shelly — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/DRKt6wzkTkG-2.webp",
+        "alt": "Bolso Shelly — foto 2",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Bolso Shelly. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1068,
+    "slug": "muneca-personalizada",
+    "name": "Muñeca personalizada",
+    "description": "Muñeca tejida a pedido a partir de una referencia.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10,
+      1
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DRGgSmrDLKd-1.webp",
+        "alt": "Muñeca personalizada — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/DRGgSmrDLKd-2.webp",
+        "alt": "Muñeca personalizada — foto 2",
+        "isCover": false
+      },
+      {
+        "src": "/products/instagram/DRGgSmrDLKd-3.webp",
+        "alt": "Muñeca personalizada — foto 3",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Muñeca personalizada. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1069,
+    "slug": "munecos-estilo-funko-personalizados",
+    "name": "Muñecos estilo Funko personalizados",
+    "description": "Muñecos tejidos de estilo Funko, personalizados a pedido.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10,
+      1
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DRAbjsokbiW-1.webp",
+        "alt": "Muñecos estilo Funko personalizados — foto 1",
+        "isCover": true
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Muñecos estilo Funko personalizados. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1070,
+    "slug": "ramo-de-tulipanes-tejidos",
+    "name": "Ramo de tulipanes tejidos",
+    "description": "Ramo de tulipanes tejidos para regalar un detalle personalizado.",
+    "categoryId": 6,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DQ9cn8YEbRS-1.webp",
+        "alt": "Ramo de tulipanes tejidos — foto 1",
+        "isCover": true
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Ramo de tulipanes tejidos. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1071,
+    "slug": "osito-con-chaqueta",
+    "name": "Osito con chaqueta",
+    "description": "Osito tejido con su chaquetita.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DQc2_EVEeIr-1.webp",
+        "alt": "Osito con chaqueta — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/DQc2_EVEeIr-2.webp",
+        "alt": "Osito con chaqueta — foto 2",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Osito con chaqueta. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1072,
+    "slug": "llaveros-de-gatitos",
+    "name": "Llaveros de gatitos",
+    "description": "Gatitos tejidos en versión llavero. Personaliza el tuyo para que te acompañe a todas partes.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10,
+      8
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DQTHgKkDIM--1.webp",
+        "alt": "Llaveros de gatitos — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/DQTHgKkDIM--2.webp",
+        "alt": "Llaveros de gatitos — foto 2",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Llaveros de gatitos. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1073,
+    "slug": "conejita-coquette",
+    "name": "Conejita coquette",
+    "description": "Conejita coquette tejida a mano, personalizable a tu preferencia.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "fixed",
+      "currency": "PEN",
+      "amount": 25,
+      "note": "Precio publicado en Instagram. Confirma vigencia al pedir."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DP6tnh7EenZ-1.webp",
+        "alt": "Conejita coquette — foto 1",
+        "isCover": true
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Conejita coquette. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1074,
+    "slug": "gato-de-halloween",
+    "name": "Gato de Halloween",
+    "description": "Gato tejido inspirado en la temporada de Halloween.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DPmKc17ka4a-1.webp",
+        "alt": "Gato de Halloween — foto 1",
+        "isCover": true
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Gato de Halloween. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1076,
+    "slug": "girasol-de-shrek",
+    "name": "Girasol de Shrek",
+    "description": "Flor tejida con rostro de Shrek y pétalos de girasol.",
+    "categoryId": 6,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DOt1o29EoAG-1.webp",
+        "alt": "Girasol de Shrek — foto 1",
+        "isCover": true
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Girasol de Shrek. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1077,
+    "slug": "neceser-azul-y-morado",
+    "name": "Neceser azul y morado",
+    "description": "Neceser tejido que combina tonos azules, morados y claros.",
+    "categoryId": 2,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DNT_yCPONo_-1.webp",
+        "alt": "Neceser azul y morado — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/DNT_yCPONo_-2.webp",
+        "alt": "Neceser azul y morado — foto 2",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Neceser azul y morado. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1078,
+    "slug": "neceser-personalizado-azul",
+    "name": "Neceser personalizado azul",
+    "description": "Neceser tejido en tonos azules. Puedes personalizarlo con los colores de tu preferencia.",
+    "categoryId": 2,
+    "tagIds": [
+      3,
+      4,
+      10,
+      1
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DMtFL6LS3iC-1.webp",
+        "alt": "Neceser personalizado azul — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/DMtFL6LS3iC-2.webp",
+        "alt": "Neceser personalizado azul — foto 2",
+        "isCover": false
+      },
+      {
+        "src": "/products/instagram/DMtFL6LS3iC-3.webp",
+        "alt": "Neceser personalizado azul — foto 3",
+        "isCover": false
+      },
+      {
+        "src": "/products/instagram/DMtFL6LS3iC-4.webp",
+        "alt": "Neceser personalizado azul — foto 4",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Neceser personalizado azul. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1079,
+    "slug": "tulipanes-en-maceta",
+    "name": "Tulipanes en maceta",
+    "description": "Tulipanes tejidos en una maceta decorativa para alegrar tu espacio.",
+    "categoryId": 6,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DK4w5shM2vs-1.webp",
+        "alt": "Tulipanes en maceta — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/DK4w5shM2vs-2.webp",
+        "alt": "Tulipanes en maceta — foto 2",
+        "isCover": false
+      },
+      {
+        "src": "/products/instagram/DK4w5shM2vs-3.webp",
+        "alt": "Tulipanes en maceta — foto 3",
+        "isCover": false
+      },
+      {
+        "src": "/products/instagram/DK4w5shM2vs-4.webp",
+        "alt": "Tulipanes en maceta — foto 4",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Tulipanes en maceta. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1080,
+    "slug": "colgantes-florales-tejidos",
+    "name": "Colgantes florales tejidos",
+    "description": "Colgantes a crochet para el auto o la decoración de tu hogar. Consulta por el modelo que prefieras.",
+    "categoryId": 6,
+    "tagIds": [
+      3,
+      4,
+      10
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DJpW720S8Fg-1.webp",
+        "alt": "Colgantes florales tejidos — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/DJpW720S8Fg-2.webp",
+        "alt": "Colgantes florales tejidos — foto 2",
+        "isCover": false
+      },
+      {
+        "src": "/products/instagram/DJpW720S8Fg-3.webp",
+        "alt": "Colgantes florales tejidos — foto 3",
+        "isCover": false
+      },
+      {
+        "src": "/products/instagram/DJpW720S8Fg-4.webp",
+        "alt": "Colgantes florales tejidos — foto 4",
+        "isCover": false
+      },
+      {
+        "src": "/products/instagram/DJpW720S8Fg-5.webp",
+        "alt": "Colgantes florales tejidos — foto 5",
+        "isCover": false
+      },
+      {
+        "src": "/products/instagram/DJpW720S8Fg-6.webp",
+        "alt": "Colgantes florales tejidos — foto 6",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Colgantes florales tejidos. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1081,
+    "slug": "bolso-personalizado-con-clip",
+    "name": "Bolso personalizado con clip",
+    "description": "Bolso tejido a crochet, hecho a mano y personalizado. Incluye un clip decorativo.",
+    "categoryId": 2,
+    "tagIds": [
+      3,
+      4,
+      10,
+      1
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DJFpomqSoW0-1.webp",
+        "alt": "Bolso personalizado con clip — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/DJFpomqSoW0-2.webp",
+        "alt": "Bolso personalizado con clip — foto 2",
+        "isCover": false
+      },
+      {
+        "src": "/products/instagram/DJFpomqSoW0-3.webp",
+        "alt": "Bolso personalizado con clip — foto 3",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Bolso personalizado con clip. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1082,
+    "slug": "llaveros-de-rosas",
+    "name": "Llaveros de rosas",
+    "description": "Rosas tejidas en versión llavero para tus llaves, mochila o cartera. Personalizamos tu color favorito.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10,
+      8
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DIXRPooSRe4-1.webp",
+        "alt": "Llaveros de rosas — foto 1",
+        "isCover": true
+      },
+      {
+        "src": "/products/instagram/DLJWYv3M90a-1.webp",
+        "alt": "Llaveros de rosas — portada de reel",
+        "isCover": false
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa Llaveros de rosas. ¿Me confirmas precio, disponibilidad y tiempo de entrega?"
+    }
+  },
+  {
+    "id": 1083,
+    "slug": "llavero-flor-coquette",
+    "name": "Llavero flor coquette",
+    "description": "Llavero de flor tejido a mano. Personalizamos el color que prefieras para regalar o llevar contigo.",
+    "categoryId": 1,
+    "tagIds": [
+      3,
+      4,
+      10,
+      8
+    ],
+    "featured": false,
+    "available": true,
+    "price": {
+      "type": "quote",
+      "currency": "PEN",
+      "note": "Consulta el precio según el diseño y las opciones de tu pedido."
+    },
+    "payment": {
+      "depositPercent": 50,
+      "balanceOnDelivery": true
+    },
+    "fulfillment": {
+      "deliveryArea": "Perú",
+      "deliveryNotes": "Consulta disponibilidad, tiempo de elaboración y costo de envío antes de confirmar tu pedido."
+    },
+    "images": [
+      {
+        "src": "/products/instagram/DJSYwLsyYRX-1.webp",
+        "alt": "Llavero flor coquette — portada de reel",
+        "isCover": true
+      }
+    ],
+    "contact": {
+      "whatsappMessage": "Hola Arrova Store! Me interesa el llavero de flor coquette. ¿Me confirmas colores, precio y tiempo de entrega?"
+    }
   }
 ]
